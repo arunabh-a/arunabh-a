@@ -1,4 +1,4 @@
-### Hello There. My Name is [Arunabh]. 
+### Hello There. My Name is Arunabh. 
 #### I am New in this World of Computers and my journey has just started. Stick around to know more.....
 
 
