@@ -1,7 +1,3 @@
-# Markdown Text 101
-
-Want to inject some flavor into your everyday text chat? You're in luck! Discord uses Markdown, a simple plain text formatting system that'll help you **make your sentences stand out**. Here's how to do it! Just add a few characters before & after your desired text to change your text! I'll show you some examples...
-
 ## Sweet Styles
 
 *Italics*	\*italics* **or** \_italics\_
@@ -19,8 +15,6 @@ __***underline bold italics***__	\__\*\*\*underline bold italics***__
 __Underline__	\_\_underline__	
 
 ~~Strikethrough~~	 \~\~Strikethrough~~
-
-Don't want to use markdown? You can slap a backslash in front of your statement, or put your message in a code block, and it'll escape the markdown formatting. You'll see those asterisks as you'd like! Just keep in mind, it doesn't work in messages with edits or underscores.
 
 ## Block Quotes
 
@@ -127,14 +121,3 @@ xl
 xml
 
 ![xml](https://i.imgur.com/4cCrGr4.png)
-
-And you get the idea! Now you're a **Discord text markdown expert**. Get out there and highlight your statements!
-
-## Acknowledgements
-
-[Hammer and Chisel](https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)  
-[Discord Highlight.js](https://discord.gg/SkZTwPk)
-
-A special thanks to Frosty#9449 for their help in making this guide.
-
-If you have any questions or want to get in contact with me, you can add **Matthew#2334** on Discord or join [my support server](https://discord.gg/vW49jAR).
