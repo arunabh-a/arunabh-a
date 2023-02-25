@@ -1,5 +1,5 @@
 <h1 align="center">Hello There👋, I'm Arunabh Bhattacharya</h1>
-<h3 align="center">A guy learning to swim in this pool of 0s and 1s</h3>
+<h3 align="center">A guy who sleeps behind a screen</h3>
 
 - 🌱 I’m currently learning **Flutter, Angular, react and many more**
 
