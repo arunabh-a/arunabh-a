@@ -1,7 +1,7 @@
 <h1 align="center">Hello There👋, I'm Arunabh Bhattacharya</h1>
 <h3 align="center">Someone who sleeps behind a screen</h3>
 
-- 🌱 I’m currently learning **Flutter, Angular, react and many more**
+- 🌱 I’m currently learning **Flutter, UI/UX, Web and much more**
 
 - 📫 How to reach me **arunabh.nd@gmail.com**
 
