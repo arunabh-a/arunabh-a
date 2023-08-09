@@ -1,5 +1,5 @@
 <h1 align="center">Hello There👋, I'm Arunabh Bhattacharya</h1>
-<h3 align="center">Someone who sleeps behind a screen</h3>
+<h3 align="center">Someguy Sleeping behind a Screen</h3>
 
 - 🌱 I’m currently learning **Flutter, UI/UX, Web and much more**
 
