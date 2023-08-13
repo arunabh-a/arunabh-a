@@ -11,9 +11,7 @@
 <a href="https://linkedin.com/in/arunabhatt" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/linkedin-fill.svg" alt="arunabhatt" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/19496359" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/stack-overflow-fill.svg" alt="19496359" height="30" width="40" /></a>
 <a href="https://instagram.com/_arunabh.02" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/instagram-line.svg" alt="_arunabh.02" height="30" width="40" /></a>
-</p>
 <a href="https://arunabh.page.link/googledeveloper" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/gdev.png" alt="_arunabh.02" height="30" width="40" /></a>
-</p>
 <a href="https://codepen.io/arunabh-a" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/codepen-line.svg" alt="_arunabh.02" height="30" width="40" /></a>
 </p>
 
