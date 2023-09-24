@@ -1,9 +1,8 @@
-<h1 align="center">Hello There👋, I'm Arunabh Bhattacharya</h1>
-<!-- <h3 align="center">Someguy Sleeping behind a Screen</h3> -->
+<h1 align="center">Hello There, I'm Arunabh Bhattacharya</h1>
 
-- 🌱 I’m currently learning **Flutter, UI/UX, Web and much more**
+- currently learning **Flutter, UI/UX, Web and much more**
 
-- 📫 How to reach me **arunabh.nd@gmail.com**
+- to reach me: **arunabh.nd@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
