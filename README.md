@@ -1,4 +1,4 @@
-<h1 align="center">Hello There, I'm Arunabh Bhattacharya</h1>
+<h1 align="center"> Hello There, I'm Arunabh Bhattacharya </h1>
 
 - currently learning **Flutter, UI/UX, Web and much more**
 
