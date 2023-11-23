@@ -24,12 +24,9 @@
   <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/flutter-fill.svg" alt="flutter" width="40" height="40"/> </a> 
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/git.png" alt="git" width="40" height="40"/> </a> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/html5-fill.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/illustrator.png" alt="illustrator" width="40" height="40"/> </a> 
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/java.png" alt="java" width="40" height="40"/> </a> 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/javascript-fill.svg" alt="javascript" width="40" height="40"/> </a> 
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/linux.png" alt="linux" width="40" height="40"/> </a> 
   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/sql.png" alt="mssql" width="40" height="40"/> </a>  
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/npmjs-line.svg" alt="nodejs" width="40" height="40"/> </a> 
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/photoshop.png" alt="photoshop" width="40" height="40"/> </a> 
-  <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/php.png" alt="php" width="40" height="40"/> </a> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/python.png" alt="python" width="40" height="40"/> </a> </p>
