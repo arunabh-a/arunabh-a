@@ -15,7 +15,7 @@
 <a href="https://arunabh.page.link/discord" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/discord-fill.svg" alt="discord" height="30" width="40" /></a>
   <a href="https://leetcode.com/arunabh-a/" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/leetcode.svg" alt="arunabh-a" height="30" width="40" /></a>
 </p>
-
+<!-- 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
 <a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/android-line.svg" alt="android" width="40" height="40"/></a> 
@@ -33,3 +33,4 @@
 <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/npmjs-line.svg" alt="nodejs" width="40" height="40"/></a> 
 <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/python.png" alt="python" width="40" height="40"/></a>
 </p>
+ -->
