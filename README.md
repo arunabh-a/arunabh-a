@@ -1,10 +1,12 @@
-<h1 align="center"> Hello There, I'm Arunabh Bhattacharya </h1>
+<h1 align="center"> Hello There,  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" />I'm Arunabh Bhattacharya  </h1>
 
-- currently learning **Flutter, UI/UX, Web and much more**
 
-- to reach me: **arunabh.nd@gmail.com**
+* 🖥️  See my website at [arunabh.online](http://arunabh.online)
+  
+* ✉️  You can contact me at [arunabh.nd@gmail.com](mailto:arunabh.nd@gmail.com)
 
-<h3 align="left">Connect with me:</h3>
+<h2 align="left">Connect with me:</h2>
+
 <p align="left">
 <a href="https://twitter.com/arunabh_exe" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/twitter-x-fill.svg" alt="arunabh_exe" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/arunabhatt" target="blank"><img align="center" src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/linkedin-fill.svg" alt="arunabhatt" height="30" width="40" /></a>
@@ -34,3 +36,4 @@
 <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/python.png" alt="python" width="40" height="40"/></a>
 </p>
  -->
+
