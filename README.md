@@ -18,6 +18,7 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 
 <h2 align="left">Socials:</h2>
 
+&nbsp;
 
 <p align="center"> 
 <a href="https://www.codepen.io/arunabh-a" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen-dark.svg" /> 
