@@ -15,9 +15,9 @@ src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-th
 <a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-badge&color=3382ed&labelColor=171717&label=TWITCH+STATUS" /></a>
 </p>
-
+<!--
 <h2 align="left">Socials:</h2>
-
+-->
 &nbsp;
 
 <p align="center"> 
@@ -64,8 +64,8 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 <!-- <a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="45" height="35" /> </picture> </a>  -->
 </p>
 &nbsp;
-
+<!--
 <p align="center">
 <a  href="http://www.github.com/arunabh-a">
   <img src="https://github-readme-stats.vercel.app/api?username=arunabh-a&show_icons=true&hide=stars,&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=3382ed&bg_color=171717&hide_border=true&show_icons=true" alt="arunabh-a's GitHub stats" /></a>
-</p>
+ </p> -->
