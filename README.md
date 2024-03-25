@@ -95,8 +95,6 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 </p>
 
 <hr/>
-&nbsp;
-
 <h1 align="center"> 💻 Technologies to be used 💻 </h1>
 
 <p align="center">
@@ -104,7 +102,6 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 </p>
 
 <hr/>
-&nbsp;
 
 <h1 align="center"> 📈 Stats 📉 </h1>
 <p align="center" width="100">
