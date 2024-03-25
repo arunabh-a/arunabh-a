@@ -115,7 +115,7 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunabh-a&theme=blue_navy&hide_border=true&text_color=ffffff&date_format=j%20M%5B%20Y%5D" alt="My Commit Streak" />
   
 </a>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&layout=donut-vertical" alt="My Top Languages" />
+<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&layout=donut-vertical" alt="My Top Languages" /> -->
 </p> 
 
 &nbsp;
@@ -123,8 +123,6 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 &nbsp;
 
 
-
-<img src="
-https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
-###
+<div align="center">
+ <img src="https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
