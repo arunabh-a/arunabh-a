@@ -111,9 +111,9 @@ src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-ba
 <a  align="center" href="http://www.github.com/arunabh-a">
   <img src="https://github-readme-stats.vercel.app/api?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&line_height=30&custom_title=My%20Stats&count_private=true&include_all_commits=true&hide=stars,&text_color=ffffff&rank_icon=github" alt="arunabh-a's GitHub stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunabh-a&theme=blue_navy&hide_border=true&text_color=ffffff&date_format=j%20M%5B%20Y%5D" alt="My Commit Streak" />
-  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&card-width=460&layout=donut" alt="My Top Languages" />
 </a>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&card-width=460&layout=donut-vertical" alt="My Top Languages" />
+
 </p> 
 
 <hr/>
