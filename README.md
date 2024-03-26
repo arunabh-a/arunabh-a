@@ -1,24 +1,29 @@
-<!-- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Concert+One&size=50&duration=3000&pause=1000&color=82AAFF&center=true&multiline=true&repeat=false&random=true&width=1000&height=60&lines=Hello+There!" alt="Typing SVG" /></a> -->
+
  &nbsp;
 <img src="https://media.licdn.com/dms/image/D4D16AQHVJrfE6TC_Ww/profile-displaybackgroundimage-shrink_350_1400/0/1678533252622?e=1717027200&v=beta&t=NrIh0opQyI96lQuaK-kj3pcJEeb_vcsEHUI6NHI30gY" alt="linkedin" />
 
-<h1 align="center"> I'm Arunabh Bhattacharya <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" /></h1>
+<h1 align="center">Hello Threre, <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" /> I'm Arunabh Bhattacharya </h1>
 
 
-* 🖥️  See my linksite at [arunabh.online](http://arunabh.online)
+- 🖥️  See my linksite at [arunabh.online](http://arunabh.online) 
   
-* ✉️  You can contact me at [arunabh.nd@gmail.com](mailto:arunabh.nd@gmail.com)
+- ✉️  You can contact me at [arunabh.nd@gmail.com](mailto:arunabh.nd@gmail.com)
 
 &nbsp;
 
-<p align="center">
-<a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171717" /></a>
-<a href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"
-/></a>
-<a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-badge&color=3382ed&labelColor=171717&label=TWITCH+STATUS" /></a>
+<p >
+<a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer">
+ <img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171717" />
+</a>
+
+<a href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer">
+ <img src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/>
+</a>
+
+<a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer">
+ <img src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-badge&color=3382ed&labelColor=171717&label=TWITCH+STATUS" /></a>
 </p>
+
 &nbsp;
 
 
