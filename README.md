@@ -11,16 +11,16 @@
 
 &nbsp;
 
-<p >
-<a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer">
+<p>
+<a align="left" href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer">
  <img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171717" />
 </a>
-
-<a href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer">
+<br>
+<a align="left" href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer">
  <img src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/>
 </a>
-
-<a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer">
+<br>
+ <a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer">
  <img src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-badge&color=3382ed&labelColor=171717&label=TWITCH+STATUS" /></a>
 </p>
 
@@ -100,6 +100,9 @@
 </p>
 
 <hr/>
+
+
+
 <h1 align="center"> 💻 Technologies to be used 💻 </h1>
 
 <p align="center">
@@ -116,12 +119,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&card-width=460&layout=donut" alt="My Top Languages" />
 </a>
 
+<div align="center">
+ <img src="https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
+
 </p> 
 
 <hr/>
 &nbsp;
 
 
-<div align="center">
- <img src="https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
+
