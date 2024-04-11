@@ -104,7 +104,7 @@
 
 
 
-<h1 align="center"> 💻 Technologies to be used 💻 </h1>
+<h1 align="center"> 💻 Tools and Tech Used 💻 </h1>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ae,androidstudio,aws,bash,blender,bootstrap,c,cloudflare,css,dart,debian,figma,firebase,flask,flutter,gcp,git,github,html,ai,java,js,linux,mysql,nodejs,npm,opencv,ps,php,pr,py,react,tailwind,tensorflow,threejs,vercel,visualstudio,vite,vscode,vim&perline=10" />
