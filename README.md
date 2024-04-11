@@ -9,19 +9,23 @@
 - ✉️  You can contact me at [arunabh.nd@gmail.com](mailto:arunabh.nd@gmail.com)
 
 &nbsp;
+ 
+<p align="center">
 
-<p>
-<a align="left" href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer">
- <img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171717" />
-</a>
-<br>
-<a align="left" href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer">
- <img src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/>
-</a>
-<br>
+ <a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer">
+ <img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171717" /></a>
+ 
+<a href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer">
+<img src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/></a>
+
  <a href="https://www.twitch.tv/palpsyy" target="_blank" rel="noreferrer">
  <img src="https://img.shields.io/twitch/status/palpsyy?logo=twitchsx&style=for-the-badge&color=3382ed&labelColor=171717&label=TWITCH+STATUS" /></a>
+ 
 </p>
+
+&nbsp;
+
+<p align="center"><a href="https://discord.com/users/809714813562257418"><img src="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=0e1013&borderRadius=50&idleMessage=sleeping...."></a></p>
 
 &nbsp;
 
@@ -89,12 +93,10 @@
 </a>
     
 <a href="https://arunabh.page.link/googledeveloper" target="blank">
-  <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/gdev.png" alt="gdev" height="35" width="45" />
-</a>
+  <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/gdev.png" alt="gdev" height="35" width="45" /></a>
 
 <a href="https://leetcode.com/arunabh-a" target="blank">
-  <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/leetcode.svg" alt="arunabh-a" height="35" width="45" />
-</a>
+ <img src="https://github.com/arunabh-a/arunabh-a/blob/main/icons/leetcode.svg" alt="arunabh-a" height="35" width="45" /></a>
 
 </p>
 
