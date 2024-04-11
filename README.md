@@ -25,7 +25,12 @@
 
 &nbsp;
 
-<p align="center"><a href="https://discord.com/users/809714813562257418"><img src="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=0e1013&borderRadius=50&idleMessage=sleeping...."></a></p>
+<p align="center"><a href="https://discord.com/users/809714813562257418">
+ <picture> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=0e1013&borderRadius=50&idleMessage=sleeping...." /> 
+    <source media="(prefers-color-scheme: light)" srcset="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=FFFFF&borderRadius=50&idleMessage=sleeping...." /> 
+    <img src="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=FFFFF&borderRadius=50&idleMessage=sleeping...." /> 
+  </picture></a></p>
 
 &nbsp;
 
