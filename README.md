@@ -1,7 +1,7 @@
 <!-- &nbsp;
  <img src="https://media.licdn.com/dms/image/D4D16AQHVJrfE6TC_Ww/profile-displaybackgroundimage-shrink_350_1400/0/1678533252622?e=1717027200&v=beta&t=NrIh0opQyI96lQuaK-kj3pcJEeb_vcsEHUI6NHI30gY" alt="linkedin" /> -->
 
-<h1 align="center">Hello Threre, <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" /> I'm Arunabh Bhattacharya </h1>
+<h1 align="center">Hello There, <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" /> I'm Arunabh Bhattacharya </h1>
 
 
 - 🖥️  See my linksite at [arunabh.online](http://arunabh.online) 
@@ -120,11 +120,11 @@
 <h1 align="center"> 📈 Stats 📉 </h1>
 <p align="center" width="100">
 <a  align="center" href="http://www.github.com/arunabh-a">
-<!--   <img src="https://github-readme-stats.vercel.app/api?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&line_height=30&custom_title=My%20Stats&count_private=true&include_all_commits=true&hide=stars,&text_color=ffffff&rank_icon=github" alt="arunabh-a's GitHub stats" /> -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arunabh-a&theme=blue_navy&hide_border=true&text_color=ffffff&date_format=j%20M%5B%20Y%5D" alt="My Commit Streak"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&card-width=460&layout=donut" alt="My Top Languages"/></a>
-
+<img src="https://github-readme-stats.vercel.app/api?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&line_height=30&custom_title=My%20Stats&count_private=true&include_all_commits=true&hide=stars,&text_color=ffffff&rank_icon=github" alt="arunabh-a's GitHub stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arunabh-a&theme=blue_navy&hide_border=true&text_color=ffffff&date_format=j%20M%5B%20Y%5D" alt="My Commit Streak"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunabh-a&theme=blue_navy&show_icons=true&hide_border=true&text_color=ffffff&card-width=460&layout=donut" alt="My Top Languages"/>
+</a>
 <div align="center">
- <img src="https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/arunabh-a/arunabh-a/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </div>
 
 </p> 
