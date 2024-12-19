@@ -109,7 +109,7 @@
 
 
 
-<h1 align="center"> 💻 Tools and Tech Used 💻 </h1>
+<h1 align="center"> 💻 Tools and Tech I have Used 💻 </h1>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,aws,bash,c,css,dart,debian,express,firebase,figma,flutter,gcp,git,github,html,js,lua,linux,mysql,mongodb,nodejs,npm,nextjs,postman,py,react,tailwind,tensorflow,threejs,vercel,vite&perline=8" />
