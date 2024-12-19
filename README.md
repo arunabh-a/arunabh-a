@@ -112,7 +112,7 @@
 <h1 align="center"> 💻 Tools and Tech Used 💻 </h1>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,aws,bash,blender,bootstrap,c,cloudflare,css,dart,debian,firebase,flask,figma,ae,ai,ps,pr,flutter,gcp,git,github,html,java,js,linux,mysql,nodejs,npm,opencv,php,py,react,tailwind,tensorflow,threejs,vercel,visualstudio,vite,vscode,vim&perline=10" />
+  <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,aws,bash,c,css,dart,debian,express,firebase,figma,flutter,gcp,git,github,html,js,lua,linux,mysql,mongodb,nodejs,npm,nextjs,postman,py,react,tailwind,tensorflow,threejs,vercel,vite&perline=8" />
 </p>
 
 <hr/>
