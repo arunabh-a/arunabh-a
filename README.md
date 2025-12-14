@@ -11,7 +11,7 @@
 <p align="center">
  
  <a href="https://www.github.com/arunabh-a" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/arunabh-a?logo=github&style=for-the-badge&color=3382ed&labelColor=171317" /></a>
- <a href="https://www.x.com/arunabh_exe" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitter/follow/arunabh_exe?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/></a>
+ <a href="https://www.x.com/arunabh_2" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitter/follow/arunabh_2?logo=twitter&style=for-the-badge&color=3382ed&labelColor=171717"/></a>
 </p>
 <hr/>
 
