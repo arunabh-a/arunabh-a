@@ -20,7 +20,7 @@
     <img src="https://skillicons.dev/icons?i=aws,gcp,docker,nginx,githubactions,linux,git,github,bash,mongodb,express,nodejs,ts,postgres" />
   <h3 align="left"> 👍 What I Enjoy Working On </h3>
     <img src="https://skillicons.dev/icons?i=fastapi,py,grafana,jenkins,sentry,js,nextjs,supabase" />
-  <h3 align="left"> 🧰 What I Can Also Deliver </h3>
+  <h3 align="left"> 🧰 What I Can Also Work On </h3>
     <img src="https://skillicons.dev/icons?i=react,tailwind,threejs,vercel,androidstudio,flutter,dart,firebase" />
 </p>
 &nbsp;
