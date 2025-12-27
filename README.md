@@ -32,6 +32,4 @@
     <img src="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=FFFFF&borderRadius=50&idleMessage=sleeping...." /> 
   </picture>
 </a></p> -->
-
-&nbsp;
 <hr/>
