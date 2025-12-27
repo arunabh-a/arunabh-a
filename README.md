@@ -23,8 +23,6 @@
   <h3 align="left"> 🧰 What I Can Also Work On </h3>
     <img src="https://skillicons.dev/icons?i=react,tailwind,threejs,vercel,androidstudio,flutter,dart,firebase" />
 </p>
-&nbsp;
-
 <!-- <p align="center"><a href="https://discord.com/users/809714813562257418">
  <picture> 
     <source media="(prefers-color-scheme: dark)" srcset="https://lanyard-profile-readme.vercel.app/api/809714813562257418?bg=0d1117&borderRadius=50&idleMessage=sleeping...." /> 
