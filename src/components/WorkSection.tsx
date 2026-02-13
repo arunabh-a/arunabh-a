@@ -18,16 +18,16 @@ interface Experience {
 }
 const experiences: Experience[] = [
     {
-        company: "Hooc AI | Hoocup",
+        company: "Hooc AI/Hoocup",
         role: "Founding Software Developer",
-        period: "August 2025 - Present",
+        period: "Aug 2025 - Present",
         logoUrl: "https://www.hooc.tech/favicon.ico",
         description: "Building scalable backend services with FastAPI and Python. Developed real-time notification system with message history and retry logic. Set up automated monitoring, recovery systems, and CI/CD pipelines with Docker across GCP and Oracle Cloud.",
     },
     {
         company: "UnbiaslyAI",
         role: "Intern - Software Developer",
-        period: "December 2024 - July 2025",
+        period: "Dec 2024 - Jul 2025",
         logoUrl: "https://unbiasly.ai/icon.svg",
         description: "Enhanced unbiasly.ai (10M+ users) and built Career Portal with AI-powered Resume Parser, achieving 30% reduction in page load times. Refactored Internal Admin Panel with modular architecture, reducing publishing time by 67%. Built full-stack platform for bureaucrats using Next.js, TanStack Query, and REST APIs with secure data orchestration.",
     },
@@ -71,7 +71,7 @@ export default function WorkSection() {
                                         alt={work.company}
                                     />
                                     <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
-                                        <div className="font-semibold leading-none flex items-center gap-2">
+                                        <div className="font-semibold text-xs md:text-sm leading-none flex items-center gap-2">
                                             {work.company}
                                             <span className="relative inline-flex items-center w-3.5 h-3.5">
                                                 <ChevronRight

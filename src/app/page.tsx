@@ -5,7 +5,6 @@ import EducationSection from "@/components/EducationSection";
 import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
-import LinkNav from "@/components/LinkNav";
 import { MainDock } from "@/components/MainDock";
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
                     <ContactSection />
                 </div>
                 <MainDock />
-                {/* <LinkNav /> */}
             </div>
         </main>
     );

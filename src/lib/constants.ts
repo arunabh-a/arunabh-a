@@ -1,23 +1,19 @@
-
 export const DEFAULT_LANGUAGE = "en";
 export const SUPPORTED_LANGUAGES = ["en", "es", "fr", "de"];
 
-
 export const PROFILE = {
-  name: "Arunabh Bhattacharya",
-  initials: "AB",
-  url: "https://arunabh.online",
-  location: "Ghaziabad, India",
-  locationLink: "https://www.google.com/maps/place/ghaziabad",
-  description:
-    "Software Dev as a Student. I love building things and helping people. Love Cars, Tech and Star Wars.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: '/me-updated.png',
-  email: "arunabh.nd@gmail.com",
-  
+    name: "Arunabh Bhattacharya",
+    initials: "AB",
+    url: "https://arunabh.online",
+    location: "Ghaziabad, India",
+    locationLink: "https://www.google.com/maps/place/ghaziabad",
+    description:
+        "Software Dev as a Student. I love building things and helping people. Love Cars, Tech and Star Wars.",
+    summary:
+        "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    avatarUrl: "/me-updated.png",
+    email: "arunabh.nd@gmail.com",
 } as const;
-
 
 export const NAVIGATION_LINKS = [
     { name: "home", href: "/" },
@@ -30,7 +26,10 @@ export const SKILLS = [
     { name: "GCP", icon: "https://skillicons.dev/icons?i=gcp" },
     { name: "Docker", icon: "https://skillicons.dev/icons?i=docker" },
     { name: "Nginx", icon: "https://skillicons.dev/icons?i=nginx" },
-    { name: "GitHub Actions", icon: "https://skillicons.dev/icons?i=githubactions" },
+    {
+        name: "GitHub Actions",
+        icon: "https://skillicons.dev/icons?i=githubactions",
+    },
     { name: "Linux", icon: "https://skillicons.dev/icons?i=linux" },
     { name: "Git", icon: "https://skillicons.dev/icons?i=git" },
     { name: "GitHub", icon: "https://skillicons.dev/icons?i=github" },
@@ -52,7 +51,10 @@ export const SKILLS = [
     { name: "Tailwind", icon: "https://skillicons.dev/icons?i=tailwind" },
     { name: "Three.js", icon: "https://skillicons.dev/icons?i=threejs" },
     { name: "Vercel", icon: "https://skillicons.dev/icons?i=vercel" },
-    { name: "Android Studio", icon: "https://skillicons.dev/icons?i=androidstudio" },
+    {
+        name: "Android Studio",
+        icon: "https://skillicons.dev/icons?i=androidstudio",
+    },
     { name: "Flutter", icon: "https://skillicons.dev/icons?i=flutter" },
     { name: "Dart", icon: "https://skillicons.dev/icons?i=dart" },
     { name: "Firebase", icon: "https://skillicons.dev/icons?i=firebase" },
@@ -86,8 +88,7 @@ export const PROJECTS_CONTENT = [
     },
     {
         title: "TaskBrew",
-        description:
-            "A Task Tracker with Kanban Boards.",
+        description: "A Task Tracker with Kanban Boards.",
         tags: ["React", "TypeScript", "Next.js", "Node.js", "Express", "Neon"],
         href: "https://github.com/arunabh-a/Task-Brew",
     },
@@ -120,52 +121,97 @@ export const SOCIAL_LINKS = [
         url: "https://www.linkedin.com/in/arunabhaa/",
         icon: "/icons/linkedin-fill.svg",
         description: "The Professional Me",
+        cta: 'Connect'
     },
     {
         name: "GitHub",
         url: "https://github.com/arunabh-a",
         icon: "/icons/github-fill.svg",
         description: "My Home for all my Code",
+        cta: 'Visit'
+    },
+    {
+        // url: "https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab",
+        name: "Leetcode",
+        url: "https://leetcode.com/u/arunabh-a/",
+        icon: "/icons/leetcode.svg",
+        description: "started to enjoy it",
+        cta: 'Visit'
     },
     {
         name: "Discord",
         url: "https://discordapp.com/users/809714813562257418",
         icon: "/icons/discord-fill.svg",
         description: "Replaced by Google Meet",
+        cta: 'Visit'
     },
     {
         name: "Hashnode",
         url: "https://blog.arunabh.online/",
         icon: "/icons/hashnode-white.png",
         description: "Where I write about Tech (or I will try to)",
+        cta: 'Read'
     },
     {
         name: "Twitter",
         url: "https://x.com/arunabh_2",
         icon: "/icons/twitter-x-fill.svg",
         description: "Good luck finding me post here",
+        cta: 'Follow'
     },
-    //   {
-    //     name: 'Google Developer',
-    //     url: 'https://g.dev/arunabha',
-    //     icon: '/icons/gdev.png',
-    //   },
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/_arunabh.02',
-    //   icon: '/public/icons/instagram-line.svg',
-    // },
-    // {
-    //   name: 'Spotify',
-    //   url: 'https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab',
-    //   icon: '/public/icons/leetcode.svg',
-    // },
-    // {
-    //   name: 'Steam',
-    //   url: 'https://steamcommunity.com/profiles/76561198866581261/',
-    //   icon: '/public/icons/steam-fill.svg',
-    // },
+    {
+        name: "Google Developer",
+        url: "https://g.dev/arunabha",
+        icon: "/icons/gdev.png",
+        description: "My Google Developer Profile",
+        cta: 'Visit'
+    },
+    {
+        name: "Instagram",
+        url: "https://www.instagram.com/_arunabh.02",
+        icon: "/icons/instagram-line.svg",
+        description: "Not much to see here, just some random pictures",
+        cta: 'Follow'
+    },
+    {
+        name: "Steam",
+        url: "https://steamcommunity.com/profiles/76561198866581261/",
+        icon: "/icons/steam_64.png",
+        description: "I used to play, now i just have it for the badge collection",
+        cta: 'Visit'
+    },
 ];
+
+export const DOCK_LINKS = {
+    // navbar: [
+    //     { href: "#", icon: HomeIcon, label: "Home" },
+    //     { href: "#", icon: PencilIcon, label: "Blog" },
+    // ],
+    contact: {
+        social: {
+            GitHub: {
+                name: "GitHub",
+                url: "https://github.com/arunabh-a",
+                icon: "/icons/github-fill.svg",
+            },
+            LinkedIn: {
+                name: "LinkedIn",
+                url: "https://linkedin.com/in/arunabhaa/",
+                icon: "/icons/linkedin-fill.svg",
+            },
+            X: {
+                name: "X",
+                url: "https://x.com/arunabh_2",
+                icon: "/icons/twitter-x-fill.svg",
+            },
+            Hashnode: {
+                name: "Hashnode",
+                url: "https://blog.arunabh.online/",
+                icon: "/icons/hashnode-white.png",
+            },
+        },
+    },
+};
 
 export const PRODUCT_LINKS = [
     {
@@ -178,10 +224,10 @@ export const PRODUCT_LINKS = [
         name: "Tabenspace",
         url: "https://tabenspace.com",
         cover: "/icons/tabenspace.png",
-        description: "The Ultimate Productivity Tool to streamline your digital life",
+        description:
+            "The Ultimate Productivity Tool to streamline your digital life",
     },
-]
-
+];
 
 export const LINKS_CONTENTS = {
     social_title: "Links",
@@ -190,5 +236,4 @@ export const LINKS_CONTENTS = {
     product_description: "Stuff I'm Actively working on",
     links: SOCIAL_LINKS,
     products: PRODUCT_LINKS,
-}
-
+};

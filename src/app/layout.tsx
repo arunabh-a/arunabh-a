@@ -3,6 +3,7 @@ import { Zain, Noto_Sans_Mono } from "next/font/google";
 import "./globals.css";
 import { PROFILE } from "@/lib/constants";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import LinkNav from "@/components/LinkNav";
 
 const zain = Zain({
     variable: "--font-zain",
@@ -63,6 +64,7 @@ export default function RootLayout({
                 className={`${zain.variable} ${notoSansMono.variable} antialiased dark mx-auto py-12 pb-24  px-6`}
             >
                 <TooltipProvider>
+                    <LinkNav />
                     {children}
                 </TooltipProvider>
             </body>
