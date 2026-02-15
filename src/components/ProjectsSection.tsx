@@ -8,7 +8,7 @@ interface Project {
     href: string;
 }
 
-const projects: Project[] = PROJECTS_CONTENT;
+const projects: Project[] = PROJECTS_CONTENT.allProjects;
 
 const ProjectsSection = () => {
     return (

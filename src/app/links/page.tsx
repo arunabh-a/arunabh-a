@@ -1,5 +1,5 @@
 import LinkPageItem from "@/components/LinkItem";
-import { LINKS_CONTENTS, PRODUCT_LINKS, PROFILE, SOCIAL_LINKS } from "@/lib/constants";
+import { LINKS_CONTENTS, PRODUCT_LINKS, PROFILE, PROJECTS_CONTENT, SOCIAL_LINKS } from "@/lib/constants";
 import { ChevronRight, Inbox, LinkIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,16 +22,16 @@ const Page = () => {
                                 <span>Latest Product</span>
                                 <Link
                                     className="flex items-center gap-1 font-sans text-md text-low-contrast-text hover:text-high-contrast-text hover:opacity-90"
-                                    href={"https://tabenspace.com"}
+                                    href={PROJECTS_CONTENT.latestProject.href}
                                 >
-                                    <span>Tabenspace</span>
+                                    <span>{PROJECTS_CONTENT.latestProject.title}</span>
                                     <span className="transform transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:text-high-contrast-text">
                                         <ChevronRight />
                                     </span>
                                 </Link>
                             </div>
 
-                            <Image src='/experience/Tabenspace.png' alt="Tabenspace" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"/> 
+                            <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"/> 
                         </div>
 
                         <LinkPageItem

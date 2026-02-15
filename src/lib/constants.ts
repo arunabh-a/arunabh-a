@@ -78,42 +78,53 @@ export const EXPERIENCE_CONTENT = {
     ],
 };
 
-export const PROJECTS_CONTENT = [
-    {
-        title: "TabenSpace",
+export const PROJECTS_CONTENT = {
+    latestProject : {
+        title: "Tabenspace",
         description:
             "A Web Application for creating and managing your own Custom Tabs.",
-        tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
+        image: '/tabenspace.png',
         href: "https://tabenspace.com",
     },
-    {
-        title: "TaskBrew",
-        description: "A Task Tracker with Kanban Boards.",
-        tags: ["React", "TypeScript", "Next.js", "Node.js", "Express", "Neon"],
-        href: "https://github.com/arunabh-a/Task-Brew",
-    },
-    {
-        title: "AuthBare",
-        description:
-            "A Standard Authentication Backend.. (working on to make it a CLI)",
-        tags: ["Node", "TypeScript", "Express", "PostgreSQL (Docker)"],
-        href: "https://github.com/arunabh-a/Auth-Bare",
-    },
-    {
-        title: "Shirclex",
-        description:
-            "A ThreeJS Application for rendering 3D Shirt Models with Logos and Textures.",
-        tags: ["Three.js", "React", "JavaScript"],
-        href: "https://github.com/arunabh-a/Shirclex",
-    },
-    {
-        title: "ParTable",
-        description:
-            "A React Application for creating Dynamic Tables with Custom Data.",
-        tags: ["React", "JavaScript"],
-        href: "https://github.com/arunabh-a/ParTable",
-    },
-];
+
+    allProjects : [
+        {
+            title: "Tabenspace",
+            description:
+                "A Web Application for creating and managing your own Custom Tabs.",
+            tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
+            href: "https://tabenspace.com",
+        },
+        {
+            title: "TaskBrew",
+            description: "A Task Tracker with Kanban Boards.",
+            tags: ["React", "TypeScript", "Next.js", "Node.js", "Express", "Neon"],
+            href: "https://github.com/arunabh-a/Task-Brew",
+        },
+        {
+            title: "AuthBare",
+            description:
+                "A Standard Authentication Backend.. (working on to make it a CLI)",
+            tags: ["Node", "TypeScript", "Express", "PostgreSQL (Docker)"],
+            href: "https://github.com/arunabh-a/Auth-Bare",
+        },
+        {
+            title: "Shirclex",
+            description:
+                "A ThreeJS Application for rendering 3D Shirt Models with Logos and Textures.",
+            tags: ["Three.js", "React", "JavaScript"],
+            href: "https://github.com/arunabh-a/Shirclex",
+        },
+        {
+            title: "ParTable",
+            description:
+                "A React Application for creating Dynamic Tables with Custom Data.",
+            tags: ["React", "JavaScript"],
+            href: "https://github.com/arunabh-a/ParTable",
+        },
+    ]
+};
+
 
 export const SOCIAL_LINKS = [
     {
