@@ -31,7 +31,9 @@ const Page = () => {
                                 </Link>
                             </div>
 
-                            <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"/> 
+                            <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} 
+                            preload= {false}
+                            className="rounded-lg object-cover h-full w-full"/> 
                         </div>
 
                         <LinkPageItem

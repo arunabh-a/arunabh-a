@@ -10,7 +10,7 @@ const LinkNav = () => {
     const isHomePage = pathname === "/";
 
     return (
-        <div className="relative md:fixed p-2 md:right-10 md:bottom-10 bg-card/50 md:bg-transparent backdrop-blur-2xl md:backdrop-blur-none w-full md:w-fit  flex justify-between md:block">
+        <div className="relative md:fixed p-2 md:right-10 md:bottom-10 bg-card/80 rounded-2xl md:rounded-none md:bg-transparent backdrop-blur-2xl md:backdrop-blur-none w-full md:w-fit  flex justify-between md:block">
             <span className="md:hidden font-sans">Click on route</span>
             <div className="flex flex-row justify-end  md:flex-col gap-4 md:gap-0">
                 {NAVIGATION_LINKS.map((link, index) => (

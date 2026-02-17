@@ -60,23 +60,7 @@ export const SKILLS = [
     { name: "Firebase", icon: "https://skillicons.dev/icons?i=firebase" },
 ];
 
-export const EXPERIENCE_CONTENT = {
-    title: "Experience",
-    content: [
-        {
-            title: "UnbiaslyAI",
-            content:
-                "Built and launched Aceternity UI and Aceternity UI Pro from scratch",
-            images: ["", "", "", ""],
-        },
-        {
-            title: "Early 2023",
-            content:
-                "I usually run out of copy, but when I see content this big, I try to integrate lorem ipsum. Lorem ipsum is for people who are too lazy to write copy. But we are not. Here are some more example of beautiful designs I built.",
-            images: ["", "", "", ""],
-        },
-    ],
-};
+
 
 export const PROJECTS_CONTENT = {
     latestProject : {
@@ -195,8 +179,9 @@ export const SOCIAL_LINKS = [
 
 export const DOCK_LINKS = {
     // navbar: [
-    //     { href: "#", icon: HomeIcon, label: "Home" },
-    //     { href: "#", icon: PencilIcon, label: "Blog" },
+    //     { href: "/", icon: HomeIcon, label: "Home" },
+    //     { href: "/links", icon: HomeIcon, label: "Links" },
+    //     { href: "/journey", icon: PencilIcon, label: "Journey" },
     // ],
     contact: {
         social: {
