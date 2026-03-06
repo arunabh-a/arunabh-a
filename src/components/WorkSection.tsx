@@ -8,30 +8,9 @@ import {
 } from "@/components/ui/accordion";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { EXPERIENCES } from "@/lib/constants";
 
-interface Experience {
-    company: string;
-    role: string;
-    description: string;
-    period: string;
-    logoUrl: string;
-}
-const experiences: Experience[] = [
-    {
-        company: "Hooc AI/Hoocup",
-        role: "Founding Software Developer",
-        period: "Aug 2025 - Present",
-        logoUrl: "https://www.hooc.tech/favicon.ico",
-        description: "Building scalable backend services with FastAPI and Python. Developed real-time notification system with message history and retry logic. Set up automated monitoring, recovery systems, and CI/CD pipelines with Docker across GCP and Oracle Cloud.",
-    },
-    {
-        company: "UnbiaslyAI",
-        role: "Intern - Software Developer",
-        period: "Dec 2024 - Jul 2025",
-        logoUrl: "https://unbiasly.ai/icon.svg",
-        description: "Enhanced unbiasly.ai (10M+ users) and built Career Portal with AI-powered Resume Parser, achieving 30% reduction in page load times. Refactored Internal Admin Panel with modular architecture, reducing publishing time by 67%. Built full-stack platform for bureaucrats using Next.js, TanStack Query, and REST APIs with secure data orchestration.",
-    },
-];
+
 
 function LogoImage({ src, alt }: { src: string; alt: string }) {
     const [imageError, setImageError] = useState(false);
@@ -53,6 +32,7 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
 }
 
 export default function WorkSection() {
+    const experiences = EXPERIENCES;
     return (
         <section>
             <h2 className="text-sm font-semibold text-foreground font-mono mb-4">Work Experience</h2>
@@ -102,7 +82,12 @@ export default function WorkSection() {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
-                            {work.description}
+
+                            <ul className="list-disc list-outside ml-4 space-y-1">
+                                {work.description.map((desc, index) => (
+                                    <li key={index}>{desc}</li>
+                                ))}
+                            </ul>
                         </AccordionContent>
                     </AccordionItem>
                 ))}

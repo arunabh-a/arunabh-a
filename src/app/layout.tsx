@@ -20,15 +20,33 @@ const notoSansMono = Noto_Sans_Mono({
 export const metadata: Metadata = {
     metadataBase: new URL(PROFILE.url),
     title: {
-        default: PROFILE.name,
+        default: `${PROFILE.name} — Full-Stack Developer`,
         template: `%s | ${PROFILE.name}`,
     },
     description: PROFILE.description,
+    keywords: [
+        "Arunabh Bhattacharya",
+        "Full-Stack Developer",
+        "Software Developer",
+        "Next.js Developer",
+        "React Developer",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Node.js",
+        "Portfolio",
+        "India",
+    ],
+    authors: [{ name: PROFILE.name, url: PROFILE.url }],
+    creator: PROFILE.name,
+    alternates: {
+        canonical: PROFILE.url,
+    },
     openGraph: {
-        title: `${PROFILE.name}`,
+        title: `${PROFILE.name} — Full-Stack Developer`,
         description: PROFILE.description,
         url: PROFILE.url,
-        siteName: `${PROFILE.name}`,
+        siteName: PROFILE.name,
         locale: "en_US",
         type: "website",
     },
@@ -44,13 +62,12 @@ export const metadata: Metadata = {
         },
     },
     twitter: {
-        title: `${PROFILE.name}`,
+        title: `${PROFILE.name} — Full-Stack Developer`,
+        description: PROFILE.description,
         card: "summary_large_image",
+        creator: "@arunabh_2",
     },
-    verification: {
-        google: "",
-        yandex: "",
-    },
+    category: "technology",
 };
 
 export default function RootLayout({
@@ -61,7 +78,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${zain.variable} ${notoSansMono.variable} antialiased dark mx-auto py-12 pb-24  px-6`}
+                className={`${zain.variable} ${notoSansMono.variable} antialiased dark mx-auto py-10 px-4`}
             >
                 <TooltipProvider>
                     <LinkNav />

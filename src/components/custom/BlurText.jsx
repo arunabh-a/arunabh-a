@@ -83,7 +83,7 @@ const BlurText = ({
     return (
         <p
             ref={ref}
-            className={`blur-text ${className} flex flex-wrap font-mono text-xl md:text-5xl  text-foreground`}
+            className={`blur-text ${className} flex flex-nowrap font-mono text-xl md:text-5xl  text-foreground`}
         >
             {springs.map((props, index) => (
                 <animated.span
@@ -99,7 +99,7 @@ const BlurText = ({
             ))}
             <animated.span
                 style={springs[elements.length]}
-                className={`blur-text ${className} lg:text-5xl font-mono text-xl inline-block transition-transform will-change-[transform,filter,opacity] text-[#6175F8] `}
+                className={`blur-text ${className} text-nowrap lg:text-5xl font-mono text-xl inline-block transition-transform will-change-[transform,filter,opacity] text-[#6175F8] `}
             >
                 {highlightText}
             </animated.span>

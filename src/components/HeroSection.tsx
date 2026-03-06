@@ -1,5 +1,6 @@
 import { PROFILE } from "@/lib/constants";
 import BlurText from "./custom/BlurText";
+import Image from "next/image";
 
 const HeroSection = () => {
     return (
@@ -21,9 +22,12 @@ const HeroSection = () => {
                 </p>
             </div>
             <div className="shrink-0">
-                <img
+                <Image
                     src={PROFILE.avatarUrl}
                     alt={PROFILE.name}
+                    width={144}
+                    height={144}
+                    priority
                     className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-2 border-border"
                 />
             </div>

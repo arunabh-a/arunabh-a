@@ -4,13 +4,29 @@ import { ChevronRight, Inbox, LinkIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Links",
+    description:
+        "All my social profiles, projects, and useful links in one place — GitHub, LinkedIn, Twitter, Hashnode, and more.",
+    alternates: {
+        canonical: `${PROFILE.url}/links`,
+    },
+    openGraph: {
+        title: `Links | ${PROFILE.name}`,
+        description:
+            "All my social profiles, projects, and useful links in one place.",
+        url: `${PROFILE.url}/links`,
+    },
+};
 
 const Page = () => {
     const content = SOCIAL_LINKS;
     return (
         <div className="flex items-center justify-center">
             <div className="flex max-w-3xl flex-col gap-8">
-                <div className="hidden flex-col gap-4 md:flex">
+                <div className=" flex-col gap-4">
                     <h1 className="text-3xl font-mono font-medium">Links</h1>
                     <p>Quicklinks to my social platforms and projects.</p>
                 </div>
@@ -32,7 +48,6 @@ const Page = () => {
                             </div>
 
                             <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} 
-                            preload= {false}
                             className="rounded-lg object-cover h-full w-full"/> 
                         </div>
 

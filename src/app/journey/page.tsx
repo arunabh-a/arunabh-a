@@ -2,6 +2,23 @@ import React from "react";
 import Image from "next/image";
 import { Timeline } from "@/components/custom/Timeline";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { PROFILE } from "@/lib/constants";
+
+export const metadata: Metadata = {
+    title: "Journey",
+    description:
+        "My developer journey from 2021 to present — hackathons, projects, internships, and building products.",
+    alternates: {
+        canonical: `${PROFILE.url}/journey`,
+    },
+    openGraph: {
+        title: `Journey | ${PROFILE.name}`,
+        description:
+            "My developer journey from 2021 to present — hackathons, projects, internships, and building products.",
+        url: `${PROFILE.url}/journey`,
+    },
+};
 
 const data = [
     {
@@ -18,14 +35,14 @@ const data = [
                 <div className="grid grid-cols-2 gap-4">
                     <Image
                         src="/experience/wow_punjab.jpg"
-                        alt="startup template"
+                        alt="Google Developer Student Club — WOW Punjab event"
                         width={600}
                         height={600}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                     <Image
                         src="/experience/wow_stage.jpg"
-                        alt="startup template"
+                        alt="Arunabh Bhattacharya on stage at WOW Punjab"
                         width={600}
                         height={600}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
@@ -48,14 +65,14 @@ const data = [
                 <div className="grid grid-cols-2 gap-4">
                     <Image
                         src="/experience/Tabenspace.png"
-                        alt="hero template"
+                        alt="Tabenspace — browser productivity dashboard project screenshot"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                     <Image
                         src="/experience/sadam.png"
-                        alt="hero template"
+                        alt="Project screenshot from 2023"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
@@ -78,14 +95,14 @@ const data = [
                 <div className="grid grid-cols-2 gap-4">
                     <Image
                         src="/experience/RJ-Police.jpg"
-                        alt="hero template"
+                        alt="Hackathon organised by Rajasthan Police 2024"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full exp-img"
                     />
                     <Image
                         src="/experience/fun.jpg"
-                        alt="hero template"
+                        alt="Arunabh having fun at a hackathon in 2024"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-50 w-full exp-img"
@@ -108,14 +125,14 @@ const data = [
                 <div className="grid grid-cols-2 gap-4">
                     <Image
                         src="/experience/unbiasly.jpg"
-                        alt="hero template"
+                        alt="Working at UnbiaslyAI as a Software Developer Intern"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full exp-img"
                     />
                     <Image
                         src="/experience/hoocup.jpg"
-                        alt="hero template"
+                        alt="Working at Hooc AI as a Founding Software Developer"
                         width={500}
                         height={500}
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-50 w-full exp-img"

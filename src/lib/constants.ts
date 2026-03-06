@@ -1,3 +1,5 @@
+import { Experience } from "./interface";
+
 export const DEFAULT_LANGUAGE = "en";
 export const SUPPORTED_LANGUAGES = ["en", "es", "fr", "de"];
 
@@ -8,17 +10,25 @@ export const PROFILE = {
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
     description:
-        "Software Dev as a Student. I love building things and helping people. Love Cars, Tech and Star Wars.",
-    summary:
-        "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+        "I build things for the web — fast, scalable, and actually useful.",
+    about: [
+        `I am a <strong>Full-Stack Dev</strong> and I love to Build things.`,
+        `Currently I am building <strong><a href="https://tabenspace.com">Tabenspace</a></strong> — a customizable browser productivity dashboard designed to help users organize websites, notes, and daily workflows in one place. `,
+    ],
+    aboutPoints: [
+        'Developer tools',
+        'Web performance',
+        'Product-focused engineering',
+        'Scalable backend systems'
+    ],
     avatarUrl: "/me-updated.png",
     email: "arunabh.nd@gmail.com",
 } as const;
 
 export const NAVIGATION_LINKS = [
-    { name: "home", href: "/" },
-    { name: "journey", href: "/journey", header: "Journey so far" },
-    { name: "links", href: "/links", header: "Useful Links" },
+    { name: "home", href: "/", icon: "/home.svg" },
+    { name: "journey", href: "/journey", icon: "/journey.svg" },
+    { name: "links", href: "/links", icon: "/links.svg" },
 ];
 
 export const SKILLS = [
@@ -60,14 +70,37 @@ export const SKILLS = [
     { name: "Firebase", icon: "https://skillicons.dev/icons?i=firebase" },
 ];
 
-
+export const EXPERIENCES: Experience[] = [
+    {
+        company: "Hooc AI/Hoocup",
+        role: "Founding Software Developer",
+        period: "Aug 2025 - Present",
+        logoUrl: "https://www.hooc.tech/favicon.ico",
+        description: [
+            "Building scalable backend services with FastAPI and Python.",
+            "Developed real-time notification system with message history and retry logic.",
+            "Set up automated monitoring, recovery systems, and CI/CD pipelines with Docker across GCP and Oracle Cloud.",
+        ],
+    },
+    {
+        company: "UnbiaslyAI",
+        role: "Intern - Software Developer",
+        period: "Dec 2024 - Jul 2025",
+        logoUrl: "https://unbiasly.ai/icon.svg",
+        description: [
+            "Enhanced unbiasly.ai (10M+ users) and built Career Portal with AI-powered Resume Parser, achieving 30% reduction in page load times.",
+            "Refactored Internal Admin Panel with modular architecture, reducing publishing time by 67%.",
+            "Built full-stack platform for bureaucrats using Next.js, TanStack Query, and REST APIs with secure data orchestration.",
+        ],
+    },
+];
 
 export const PROJECTS_CONTENT = {
     latestProject : {
         title: "Tabenspace",
         description:
-            "A Web Application for creating and managing your own Custom Tabs.",
-        image: '/tabenspace.png',
+            "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
+        image: '/og-image.png',
         href: "https://tabenspace.com",
     },
 
@@ -75,7 +108,7 @@ export const PROJECTS_CONTENT = {
         {
             title: "Tabenspace",
             description:
-                "A Web Application for creating and managing your own Custom Tabs.",
+                "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
             tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
             href: "https://tabenspace.com",
         },

@@ -1,5 +1,6 @@
 import { PROJECTS_CONTENT } from "@/lib/constants";
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 interface Project {
     title: string;
@@ -21,7 +22,7 @@ const ProjectsSection = () => {
             </p>
             <div className="space-y-0">
                 {projects.map((project) => (
-                    <a
+                    <Link
                         key={project.title}
                         href={project.href}
                         target="_blank"
@@ -47,7 +48,7 @@ const ProjectsSection = () => {
                                 </span>
                             ))}
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </section>

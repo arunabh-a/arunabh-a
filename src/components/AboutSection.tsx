@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { PROFILE } from "@/lib/constants";
 
 const AboutSection = () => {
     return (
@@ -6,19 +6,16 @@ const AboutSection = () => {
             <h2 className="text-sm font-semibold text-foreground font-mono mb-4">
                 About
             </h2>
-            <p className=" text-muted-foreground leading-relaxed">
-                I'm a{" "}<strong className="text-white">Software Dev</strong> and I
-                love to build things. 
-                <br />
-                I am working on building {" "}
-                <Link href="https://tabenspace.com" className="text-white">
-                    Tabenspace
-                </Link>
-                <br />
-                I am passionate about creating products that are{" "}
-                <strong className="text-white">user-friendly and accessible</strong> to everyone.
-                
-            </p>
+            <div className=" text-muted-foreground leading-relaxed text-sm md:text-base">
+                {PROFILE.about.map((sentence, index) => (
+                    <div key={index}>
+                        <span
+                            dangerouslySetInnerHTML={{ __html: sentence }}
+                        />
+                        <br />
+                    </div>
+                ))}
+            </div>
         </section>
     );
 };
