@@ -104,6 +104,7 @@ export const PROJECTS_CONTENT = {
         href: "https://tabenspace.com",
     },
 
+
     allProjects : [
         {
             title: "Tabenspace",
@@ -111,19 +112,22 @@ export const PROJECTS_CONTENT = {
                 "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
             tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
             href: "https://tabenspace.com",
+            image: "/tabenspace.png"
         },
         {
             title: "TaskBrew",
-            description: "A Task Tracker with Kanban Boards.",
+            description: "Kanban Board task manager for Task Tracking",
             tags: ["React", "TypeScript", "Next.js", "Node.js", "Express", "Neon"],
             href: "https://github.com/arunabh-a/Task-Brew",
+            image: "/og-image.png"
         },
         {
-            title: "AuthBare",
+            title: "AuthER",
             description:
-                "A Standard Authentication Backend.. (working on to make it a CLI)",
+                " Authentication Platform.. (working on to make it a proper authentication system for devs)",
             tags: ["Node", "TypeScript", "Express", "PostgreSQL (Docker)"],
-            href: "https://github.com/arunabh-a/Auth-Bare",
+            href: "https://github.com/arunabh-a/AuthER",
+            image: "/og-image.png"
         },
         {
             title: "Shirclex",
@@ -131,6 +135,7 @@ export const PROJECTS_CONTENT = {
                 "A ThreeJS Application for rendering 3D Shirt Models with Logos and Textures.",
             tags: ["Three.js", "React", "JavaScript"],
             href: "https://github.com/arunabh-a/Shirclex",
+            image: "/experience/shirclex.png"
         },
         {
             title: "ParTable",
@@ -138,6 +143,7 @@ export const PROJECTS_CONTENT = {
                 "A React Application for creating Dynamic Tables with Custom Data.",
             tags: ["React", "JavaScript"],
             href: "https://github.com/arunabh-a/ParTable",
+            image: "/og-image.png"
         },
     ]
 };
