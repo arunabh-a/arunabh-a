@@ -8,8 +8,8 @@ import {
     type MotionValue,
 } from "motion/react";
 import Link from "next/link";
-import React, { useRef } from "react";
-import { usePathname } from "next/navigation";
+import React, { useEffect, useRef } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const DOCK_SIZE = 38;
@@ -81,8 +81,37 @@ function NavDockItem({
 
 const LinkNav = () => {
     const pathname = usePathname();
+    const router = useRouter(); // add this import from next/navigation
     const isHomePage = pathname === "/";
     const mouseX = useMotionValue(Infinity);
+
+    // Global keyboard shortcut handler
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            // Ignore if user is typing in an input, textarea, or contenteditable
+            const target = e.target as HTMLElement;
+            if (
+                target.tagName === "INPUT" ||
+                target.tagName === "TEXTAREA" ||
+                target.isContentEditable
+            ) {
+                return;
+            }
+
+            const keyMap: Record<string, string> = {};
+            NAVIGATION_LINKS.forEach((link, index) => {
+                keyMap[String(index + 1)] = link.href;
+            });
+
+            if (keyMap[e.key]) {
+                e.preventDefault();
+                router.push(keyMap[e.key]);
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, []); // stable — NAVIGATION_LINKS is a constant
 
     return (
         <>
@@ -119,13 +148,6 @@ const LinkNav = () => {
                                 ? { delay: 0.5 + index * 0.2 }
                                 : undefined
                         }
-                        onKeyDown={(e) => {
-                            if (e.key === String(index + 1)) {
-                                e.preventDefault();
-                                window.location.href = link.href;
-                            }
-                        }}
-                        tabIndex={0}
                     >
                         <Link
                             className="flex font-mono items-center gap-2 text-neutral-400 hover:text-white"
