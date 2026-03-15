@@ -1,8 +1,20 @@
-'use client';
+"use client";
 import { useRef, useEffect, useState } from "react";
 import { useSprings, animated } from "@react-spring/web";
 
-const BlurText = ({
+interface BlurTextProps {
+    text?: string;
+    delay?: number;
+    className?: string;
+    animateBy?: "words" | "letters";
+    direction?: "top" | "bottom";
+    threshold?: number;
+    rootMargin?: string;
+    highlightText?: string;
+    easing?: any;
+}
+
+const BlurText: React.FC<BlurTextProps> = ({
     text = "",
     delay = 200,
     className = "",
@@ -10,27 +22,27 @@ const BlurText = ({
     direction = "top", // 'top' or 'bottom'
     threshold = 0.1,
     rootMargin = "0px", // optional
-    highlightText,
+    highlightText = "",
     easing = "easeOutCubic",
 }) => {
     const elements = animateBy === "words" ? text.split(" ") : text.split("");
     const [inView, setInView] = useState(false);
-    const ref = useRef();
+    const ref = useRef<HTMLParagraphElement>(null);
     const animatedCount = useRef(0);
 
     // Default animations based on direction
     const defaultFrom =
         direction === "top"
             ? {
-                  filter: "blur(10px)",
-                  opacity: 0,
-                  transform: "translate3d(0,-50px,0)",
-              }
+                    filter: "blur(10px)",
+                    opacity: 0,
+                    transform: "translate3d(0,-50px,0)",
+                }
             : {
-                  filter: "blur(10px)",
-                  opacity: 0,
-                  transform: "translate3d(0,50px,0)",
-              };
+                    filter: "blur(10px)",
+                    opacity: 0,
+                    transform: "translate3d(0,50px,0)",
+                };
 
     const defaultTo = [
         {
@@ -49,13 +61,17 @@ const BlurText = ({
             ([entry]) => {
                 if (entry.isIntersecting) {
                     setInView(true);
-                    observer.unobserve(ref.current);
+                    if (ref.current) {
+                        observer.unobserve(ref.current);
+                    }
                 }
             },
             { threshold, rootMargin },
         );
 
-        observer.observe(ref.current);
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
 
         return () => observer.disconnect();
     }, [threshold, rootMargin]);
@@ -65,18 +81,18 @@ const BlurText = ({
         [...elements, highlightText].map((_, i) => ({
             from: defaultFrom,
             to: inView
-                ? async (next) => {
-                      for (const step of defaultTo) {
-                          await next(step);
-                      }
-                      animatedCount.current += 1;
-                      //   if (animatedCount.current === elements.length && onAnimationComplete) {
-                      //     onAnimationComplete();
-                      //   }
-                  }
+                ? async (next: (step: any) => Promise<void>) => {
+                        for (const step of defaultTo) {
+                            await next(step);
+                        }
+                        animatedCount.current += 1;
+                        //   if (animatedCount.current === elements.length && onAnimationComplete) {
+                        //     onAnimationComplete();
+                        //   }
+                    }
                 : defaultFrom,
             delay: i * delay,
-            config: { easing },
+            config: { easing: easing as any },
         })),
     );
 

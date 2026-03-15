@@ -6,9 +6,6 @@ const HeroSection = () => {
     return (
         <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
             <div className="flex-1 space-y-3">
-                {/* <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                    Hello There, I'm {PROFILE.name.split(" ")[0]} 👋
-                </h1> */}
                 <BlurText
                     text="Hello There, I'm "
                     highlightText="arunabh 👋"

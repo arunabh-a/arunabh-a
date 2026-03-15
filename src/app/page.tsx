@@ -6,7 +6,13 @@ import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import { MainDock } from "@/components/MainDock";
-import { PROFILE, EXPERIENCES, PROJECTS_CONTENT, SOCIAL_LINKS } from "@/lib/constants";
+import {
+    PROFILE,
+    EXPERIENCES,
+    PROJECTS_CONTENT,
+    SOCIAL_LINKS,
+} from "@/lib/constants";
+import Image from "next/image";
 
 const jsonLd = {
     "@context": "https://schema.org",
@@ -29,8 +35,16 @@ const jsonLd = {
         "https://g.dev/arunabha",
     ],
     knowsAbout: [
-        "Next.js", "React", "TypeScript", "Node.js", "FastAPI",
-        "Python", "PostgreSQL", "Docker", "AWS", "GCP",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "FastAPI",
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "GCP",
     ],
     worksFor: {
         "@type": "Organization",
