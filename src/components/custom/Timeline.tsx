@@ -26,14 +26,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     const { scrollYProgress } = useScroll({
         target: containerRef,
-        offset: ["start 10%", "end 85%"],
+        offset: ["start 5%", "end 95%"],
     });
     const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
-    const opacityTransform = useTransform(scrollYProgress, [0, 0.7], [0, 1]);
+    const opacityTransform = useTransform(scrollYProgress, [0, 0.8], [0, 1]);
 
     return (
         <div
-            className="w-full h-full flex-1 relative font-sans px-10"
+            className="w-full h-full flex-1  relative font-sans lg:px-10"
             ref={containerRef}
         >
             <div ref={ref} className="relative mx-auto pb-20">
@@ -63,14 +63,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     style={{
                         height: height + "px",
                     }}
-                    className="absolute md:left-8 left-8 top-0 overflow-hidden w-1 bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-0% via-neutral-200 dark:via-neutral-700 to-transparent to-99%  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] "
+                    className="absolute md:left-8 left-8 top-0 overflow-hidden w-1 bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-0% via-neutral-200 dark:via-neutral-700 to-transparent to-99%  mask-[linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] "
                 >
                     <motion.div
                         style={{
                             height: heightTransform,
                             opacity: opacityTransform,
                         }}
-                        className="absolute inset-x-0 top-0 w-1 bg-linear-to-t from-gray-500 via-gray-200 to-transparent from-0% via-10% rounded-full"
+                        className="absolute inset-x-0 top-0 w-1 bg-linear-to-t from-blue-500 via-indigo-600 to-transparent from-0% via-10% rounded-full"
                     />
                 </div>
             </div>

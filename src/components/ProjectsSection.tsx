@@ -76,10 +76,10 @@ const ProjectsSection = () => {
             onMouseLeave={handleMouseLeave}
             className="relative"
         >
-            <h2 className="text-sm font-semibold text-foreground font-mono mb-2">
+            <h2 className="text-sm font-semibold text-foreground font-mono mb-1">
                 Projects
             </h2>
-            <p className="text-xs text-muted-foreground mb-6">
+            <p className="text-xs text-muted-foreground mb-4">
                 A few things I've built.
             </p>
 

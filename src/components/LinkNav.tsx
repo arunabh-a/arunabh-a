@@ -140,7 +140,7 @@ const LinkNav = () => {
                 {NAVIGATION_LINKS.map((link, index) => (
                     <motion.div
                         key={link.name}
-                        className="text-white/70 hover:text-white transition-colors duration-200 writing-mode-vertical text-lg font-medium"
+                        className="text-white/70 hover:text-white transition-colors duration-200 writing-mode-vertical text-lg cursor-pointer font-medium"
                         initial={isHomePage ? { opacity: 0, x: 20 } : false}
                         animate={isHomePage ? { opacity: 1, x: 0 } : false}
                         transition={
@@ -150,11 +150,11 @@ const LinkNav = () => {
                         }
                     >
                         <Link
-                            className="flex font-mono items-center gap-2 text-neutral-400 hover:text-white"
+                            className="flex font-mono font-semibold text-sm items-center gap-2 text-neutral-400 hover:text-white"
                             href={link.href}
                         >
                             <div className="flex items-center justify-center">
-                                {index + 1}
+                                {index + 1}.
                             </div>
                             <span>/{link.name}</span>
                         </Link>

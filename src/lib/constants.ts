@@ -10,7 +10,7 @@ export const PROFILE = {
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
     description:
-        "I build things for the web — fast, scalable, and actually useful.",
+        "I build apps on web — fast, scalable, and actually useful.",
     about: [
         `I am a <strong>Full-Stack Dev</strong> and I love to Build things.`,
         `Currently I am building <strong><a href="https://tabenspace.com">Tabenspace</a></strong> — a customizable browser productivity dashboard designed to help users organize websites, notes, and daily workflows in one place. `,
@@ -21,7 +21,7 @@ export const PROFILE = {
         'Product-focused engineering',
         'Scalable backend systems'
     ],
-    avatarUrl: "/me-updated.png",
+    avatarUrl: "/me.jpg",
     email: "arunabh.nd@gmail.com",
 } as const;
 

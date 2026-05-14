@@ -32,7 +32,7 @@ export default function LinkPageItem({
                             className="text-low-contrast-text"
                         />
                     ) : (
-                        <IconComponent className="w-7 h-7" />
+                        <IconComponent className="w-7 h-7 fill-none" />
                     )}
                 </span>
 

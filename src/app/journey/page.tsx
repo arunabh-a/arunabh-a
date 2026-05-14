@@ -159,9 +159,9 @@ const Page = () => {
     return (
         <div className="flex items-center justify-center">
             <div className="md:max-w-5xl">
-                <div className=" w-full flex-col gap-4 flex">
-                    <h1 className="text-3xl font-mono font-medium">Journey So Far</h1>
-                    <p>Check out my journey and experiences over the years.</p>
+                <div className=" w-full flex-col gap-2 flex px-4">
+                    <h1 className="text-3xl font-mono font-semibold">Journey So Far</h1>
+                    <p className="text-sm text-muted-foreground">Some of the highlights of my developer journey over the years.</p>
                 </div>
                 <Timeline data={data} />
             </div>

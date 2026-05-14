@@ -9,10 +9,7 @@ import { MainDock } from "@/components/MainDock";
 import {
     PROFILE,
     EXPERIENCES,
-    PROJECTS_CONTENT,
-    SOCIAL_LINKS,
 } from "@/lib/constants";
-import Image from "next/image";
 
 const jsonLd = {
     "@context": "https://schema.org",

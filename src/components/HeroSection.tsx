@@ -25,7 +25,7 @@ const HeroSection = () => {
                     width={144}
                     height={144}
                     priority
-                    className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-2 border-border"
+                    className="w-28 h-28 md:w-36 md:h-36 rounded-full object-fill border-2  border-border"
                 />
             </div>
         </section>

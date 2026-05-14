@@ -1,25 +1,38 @@
 import { SKILLS } from "@/lib/constants";
 
-const skills = SKILLS;
+const TYPE_ORDER: Record<string, number> = {
+    Cloud: 0,
+    Language: 1,
+    Backend: 2,
+    Frontend: 3,
+    DevOps: 4,
+    Database: 5,
+    Mobile: 6,
+    Tools: 7,
+};
+
+const skills = [...SKILLS].sort(
+    (a, b) => (TYPE_ORDER[a.type] ?? 99) - (TYPE_ORDER[b.type] ?? 99)
+);
 
 const getSkillStyle = (type: string) => {
     switch (type) {
         case "Cloud":
-            return "bg-blue-500/20 hover:bg-blue-500/30 text-blue-600 dark:text-blue-400 border-blue-500/30";
+            return "hover:bg-blue-500/30 hover:text-blue-600 dark:hover:text-blue-400";
         case "DevOps":
-            return "bg-green-500/20 hover:bg-green-500/30 text-green-600 dark:text-green-400 border-green-500/30";
+            return "hover:bg-gray-500/30 hover:text-gray-600 dark:hover:text-gray-400";
         case "Tools":
-            return "bg-gray-500/20 hover:bg-gray-500/30 text-gray-600 dark:text-gray-400 border-gray-500/30";
+            return "hover:bg-yellow-500/30 hover:text-yellow-700 dark:hover:text-yellow-400";
         case "Database":
-            return "bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-700 dark:text-yellow-400 border-yellow-500/30";
+            return "hover:bg-green-500/30 hover:text-green-600 dark:hover:text-green-400";
         case "Backend":
-            return "bg-purple-500/20 hover:bg-purple-500/30 text-purple-600 dark:text-purple-400 border-purple-500/30";
+            return "hover:bg-purple-500/30 hover:text-purple-600 dark:hover:text-purple-400 ";
         case "Language":
-            return "bg-red-500/20 hover:bg-red-500/30 text-red-600 dark:text-red-400 border-red-500/30";
+            return "hover:bg-red-500/30 hover:text-red-600 dark:hover:text-red-400 ";
         case "Frontend":
-            return "bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-600 dark:text-cyan-400 border-cyan-500/30";
+            return "hover:bg-cyan-500/30 hover:text-cyan-600 dark:hover:text-cyan-400 ";
         case "Mobile":
-            return "bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-600 dark:text-indigo-400 border-indigo-500/30";
+            return "hover:bg-indigo-500/30 hover:text-indigo-600 dark:hover:text-indigo-400 ";
         default:
             return "bg-secondary hover:bg-secondary/80 text-muted-foreground border-border";
     }
@@ -29,9 +42,12 @@ const SkillsSection = () => {
 
     return (
         <section id="skills">
-            <h2 className="text-sm font-semibold text-foreground font-mono mb-4">
+            <h2 className="text-sm font-semibold text-foreground font-mono mb-1">
                 Skills
             </h2>
+            <p className="text-xs text-muted-foreground mb-4">
+                I work with these
+            </p>
             <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
                     <span

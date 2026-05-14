@@ -27,8 +27,8 @@ const Page = () => {
         <div className="flex items-center justify-center">
             <div className="flex max-w-3xl flex-col gap-8">
                 <div className=" flex-col gap-4">
-                    <h1 className="text-3xl font-mono font-medium">Links</h1>
-                    <p>Quicklinks to my social platforms and projects.</p>
+                    <h1 className="text-3xl font-mono font-semibold">Links</h1>
+                    <p className="text-sm text-muted-foreground">Quicklinks to my social platforms and projects.</p>
                 </div>
 
                 <div className="flex flex-col gap-16">
@@ -42,7 +42,7 @@ const Page = () => {
                                 >
                                     <span>{PROJECTS_CONTENT.latestProject.title}</span>
                                     <span className="transform transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:text-high-contrast-text">
-                                        <ChevronRight />
+                                        <ChevronRight className="fill-none w-5 h-5" />
                                     </span>
                                 </Link>
                             </div>

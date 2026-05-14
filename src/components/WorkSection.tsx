@@ -35,7 +35,10 @@ export default function WorkSection() {
     const experiences = EXPERIENCES;
     return (
         <section>
-            <h2 className="text-sm font-semibold text-foreground font-mono mb-4">Work Experience</h2>
+            <h2 className="text-sm font-semibold text-foreground font-mono">Career</h2>
+            <p className="text-xs text-muted-foreground mb-4">
+                Some of the roles I've had.
+            </p>
             <Accordion type="single" collapsible className="w-full grid gap-6">
                 {experiences.map((work) => (
                     <AccordionItem
@@ -54,7 +57,7 @@ export default function WorkSection() {
                                         <div className="font-semibold text-xs md:text-sm leading-none flex items-center gap-2">
                                             {work.company}
                                             <span className="relative inline-flex items-center w-3.5 h-3.5">
-                                                <ChevronRight
+                                                <ChevronDown
                                                     className={cn(
                                                         "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
                                                         "translate-x-0 opacity-0",
