@@ -11,6 +11,20 @@ import {
     EXPERIENCES,
 } from "@/lib/constants";
 
+/**
+ * Safely serializes an object for injection into a JSON-LD <script> tag.
+ * JSON.stringify alone does not escape `<`, `>`, or `&`, which means a value
+ * containing `</script>` would break out of the script context (CWE-79).
+ * This helper replaces those characters with their Unicode escape equivalents,
+ * which are semantically identical inside JSON but safe in an HTML script block.
+ */
+function serializeJsonLd(value: Record<string, unknown>): string {
+    return JSON.stringify(value)
+        .replace(/</g, "\\u003c")
+        .replace(/>/g, "\\u003e")
+        .replace(/&/g, "\\u0026");
+}
+
 const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -54,7 +68,7 @@ export default function Home() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
             />
             <main className="min-h-screen bg-background">
                 <div className="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row gap-16">

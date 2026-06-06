@@ -38,6 +38,7 @@ const data = [
                         alt="Google Developer Student Club — WOW Punjab event"
                         width={600}
                         height={600}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                     <Image
@@ -45,6 +46,7 @@ const data = [
                         alt="Arunabh Bhattacharya on stage at WOW Punjab"
                         width={600}
                         height={600}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                 </div>
@@ -68,6 +70,7 @@ const data = [
                         alt="Tabenspace — browser productivity dashboard project screenshot"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                     <Image
@@ -75,6 +78,7 @@ const data = [
                         alt="Project screenshot from 2023"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-full w-full exp-img"
                     />
                 </div>
@@ -98,6 +102,7 @@ const data = [
                         alt="Hackathon organised by Rajasthan Police 2024"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full exp-img"
                     />
                     <Image
@@ -105,6 +110,7 @@ const data = [
                         alt="Arunabh having fun at a hackathon in 2024"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-50 w-full exp-img"
                     />
                 </div>
@@ -128,6 +134,7 @@ const data = [
                         alt="Working at UnbiaslyAI as a Software Developer Intern"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full exp-img"
                     />
                     <Image
@@ -135,6 +142,7 @@ const data = [
                         alt="Working at Hooc AI as a Founding Software Developer"
                         width={500}
                         height={500}
+                        priority
                         className="rounded-lg object-cover h-20 md:h-44 lg:h-50 w-full exp-img"
                     />
                 </div>

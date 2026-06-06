@@ -48,7 +48,7 @@ const Page = () => {
                             </div>
 
                             <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} 
-                            className="rounded-lg object-cover h-full w-full"/> 
+                            className="rounded-lg object-cover h-full w-full" priority/> 
                         </div>
 
                         <LinkPageItem

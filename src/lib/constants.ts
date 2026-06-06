@@ -9,17 +9,19 @@ export const PROFILE = {
     url: "https://arunabh.online",
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
-    description:
-        "I build apps on web — fast, scalable, and actually useful.",
+    description: "I build apps on web — fast, scalable, and actually useful.",
     about: [
-        `I am a <strong>Full-Stack Dev</strong> and I love to Build things.`,
+        `I am a <strong>Full Stack Dev</strong> and I love to Build things.`,
         `Currently I am building <strong><a href="https://tabenspace.com">Tabenspace</a></strong> — a customizable browser productivity dashboard designed to help users organize websites, notes, and daily workflows in one place. `,
+        // I got into computers early on and naturally gravitated toward engineering as a way to turn curiosity into working systems. Over the past few years, I’ve built a strong foundation in computer science and modern web development — starting with core languages like **Python, JavaScript and SQL**, and expanding into full-stack and cloud-focused tools such as **React, Next.js, Node.js, FastAPI, AWS, and Docker**.
+
+        // I enjoy working end-to-end — from designing interfaces to building backend services, deploying them to the cloud, and iterating based on real usage. I’m always building something new, and actively looking for opportunities where I can grow and contribute as a Full-Stack developer.
     ],
     aboutPoints: [
-        'Developer tools',
-        'Web performance',
-        'Product-focused engineering',
-        'Scalable backend systems'
+        "Developer tools",
+        "Web performance",
+        "Product-focused engineering",
+        "Scalable backend systems",
     ],
     avatarUrl: "/me.jpg",
     email: "arunabh.nd@gmail.com",
@@ -34,54 +36,153 @@ export const NAVIGATION_LINKS = [
 export const SKILLS = [
     { name: "AWS", icon: "https://skillicons.dev/icons?i=aws", type: "Cloud" },
     { name: "GCP", icon: "https://skillicons.dev/icons?i=gcp", type: "Cloud" },
-    { name: "Docker", icon: "https://skillicons.dev/icons?i=docker", type: "DevOps" },
-    { name: "Nginx", icon: "https://skillicons.dev/icons?i=nginx", type: "DevOps" },
+    {
+        name: "Docker",
+        icon: "https://skillicons.dev/icons?i=docker",
+        type: "DevOps",
+    },
+    {
+        name: "Nginx",
+        icon: "https://skillicons.dev/icons?i=nginx",
+        type: "DevOps",
+    },
     {
         name: "GitHub Actions",
         icon: "https://skillicons.dev/icons?i=githubactions",
         type: "DevOps",
     },
-    { name: "Linux", icon: "https://skillicons.dev/icons?i=linux", type: "DevOps" },
+    {
+        name: "Linux",
+        icon: "https://skillicons.dev/icons?i=linux",
+        type: "DevOps",
+    },
     { name: "Git", icon: "https://skillicons.dev/icons?i=git", type: "Tools" },
-    { name: "GitHub", icon: "https://skillicons.dev/icons?i=github", type: "Tools" },
-    { name: "Bash", icon: "https://skillicons.dev/icons?i=bash", type: "Tools" },
-    { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb", type: "Database" },
-    { name: "Express", icon: "https://skillicons.dev/icons?i=express", type: "Backend" },
-    { name: "Node.js", icon: "https://skillicons.dev/icons?i=nodejs", type: "Backend" },
-    { name: "TypeScript", icon: "https://skillicons.dev/icons?i=ts", type: "Language" },
-    { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgres", type: "Database" },
-    { name: "FastAPI", icon: "https://skillicons.dev/icons?i=fastapi", type: "Backend" },
-    { name: "Python", icon: "https://skillicons.dev/icons?i=py", type: "Language" },
-    { name: "Grafana", icon: "https://skillicons.dev/icons?i=grafana", type: "DevOps" },
-    { name: "Jenkins", icon: "https://skillicons.dev/icons?i=jenkins", type: "DevOps" },
-    { name: "Sentry", icon: "https://skillicons.dev/icons?i=sentry", type: "DevOps" },
-    { name: "JavaScript", icon: "https://skillicons.dev/icons?i=js", type: "Language" },
-    { name: "Next.js", icon: "https://skillicons.dev/icons?i=nextjs", type: "Frontend" },
-    { name: "Supabase", icon: "https://skillicons.dev/icons?i=supabase", type: "Database" },
-    { name: "React", icon: "https://skillicons.dev/icons?i=react", type: "Frontend" },
-    { name: "Tailwind", icon: "https://skillicons.dev/icons?i=tailwind", type: "Frontend" },
-    { name: "Three.js", icon: "https://skillicons.dev/icons?i=threejs", type: "Frontend" },
-    { name: "Vercel", icon: "https://skillicons.dev/icons?i=vercel", type: "Cloud" },
+    {
+        name: "GitHub",
+        icon: "https://skillicons.dev/icons?i=github",
+        type: "Tools",
+    },
+    {
+        name: "Bash",
+        icon: "https://skillicons.dev/icons?i=bash",
+        type: "Tools",
+    },
+    {
+        name: "MongoDB",
+        icon: "https://skillicons.dev/icons?i=mongodb",
+        type: "Database",
+    },
+    {
+        name: "Express",
+        icon: "https://skillicons.dev/icons?i=express",
+        type: "Backend",
+    },
+    {
+        name: "Node.js",
+        icon: "https://skillicons.dev/icons?i=nodejs",
+        type: "Backend",
+    },
+    {
+        name: "TypeScript",
+        icon: "https://skillicons.dev/icons?i=ts",
+        type: "Language",
+    },
+    {
+        name: "PostgreSQL",
+        icon: "https://skillicons.dev/icons?i=postgres",
+        type: "Database",
+    },
+    {
+        name: "FastAPI",
+        icon: "https://skillicons.dev/icons?i=fastapi",
+        type: "Backend",
+    },
+    {
+        name: "Python",
+        icon: "https://skillicons.dev/icons?i=py",
+        type: "Language",
+    },
+    {
+        name: "Grafana",
+        icon: "https://skillicons.dev/icons?i=grafana",
+        type: "DevOps",
+    },
+    {
+        name: "Jenkins",
+        icon: "https://skillicons.dev/icons?i=jenkins",
+        type: "DevOps",
+    },
+    {
+        name: "Sentry",
+        icon: "https://skillicons.dev/icons?i=sentry",
+        type: "DevOps",
+    },
+    {
+        name: "JavaScript",
+        icon: "https://skillicons.dev/icons?i=js",
+        type: "Language",
+    },
+    {
+        name: "Next.js",
+        icon: "https://skillicons.dev/icons?i=nextjs",
+        type: "Frontend",
+    },
+    {
+        name: "Supabase",
+        icon: "https://skillicons.dev/icons?i=supabase",
+        type: "Database",
+    },
+    {
+        name: "React",
+        icon: "https://skillicons.dev/icons?i=react",
+        type: "Frontend",
+    },
+    {
+        name: "Tailwind",
+        icon: "https://skillicons.dev/icons?i=tailwind",
+        type: "Frontend",
+    },
+    {
+        name: "Three.js",
+        icon: "https://skillicons.dev/icons?i=threejs",
+        type: "Frontend",
+    },
+    {
+        name: "Vercel",
+        icon: "https://skillicons.dev/icons?i=vercel",
+        type: "Cloud",
+    },
     {
         name: "Android Studio",
         icon: "https://skillicons.dev/icons?i=androidstudio",
         type: "Tools",
     },
-    { name: "Flutter", icon: "https://skillicons.dev/icons?i=flutter", type: "Mobile" },
-    { name: "Dart", icon: "https://skillicons.dev/icons?i=dart", type: "Language" },
-    { name: "Firebase", icon: "https://skillicons.dev/icons?i=firebase", type: "Backend" },
+    {
+        name: "Flutter",
+        icon: "https://skillicons.dev/icons?i=flutter",
+        type: "Mobile",
+    },
+    {
+        name: "Dart",
+        icon: "https://skillicons.dev/icons?i=dart",
+        type: "Language",
+    },
+    {
+        name: "Firebase",
+        icon: "https://skillicons.dev/icons?i=firebase",
+        type: "Backend",
+    },
 ];
 
 export const EXPERIENCES: Experience[] = [
     {
-        company: "Hooc AI/Hoocup",
+        company: "Hooc AI - Hoocup",
         role: "Founding Software Developer",
         period: "Aug 2025 - Present",
         logoUrl: "https://www.hooc.tech/favicon.ico",
         description: [
-            "Building scalable backend services with FastAPI and Python.",
-            "Developed real-time notification system with message history and retry logic.",
-            "Set up automated monitoring, recovery systems, and CI/CD pipelines with Docker across GCP and Oracle Cloud.",
+            "Worked on real-time notifications, background jobs, and the kind of infrastructure nobody notices when it works.",
+            "Automated deployments, monitoring, and cloud infrastructure across GCP and Oracle Cloud.",
         ],
     },
     {
@@ -90,38 +191,43 @@ export const EXPERIENCES: Experience[] = [
         period: "Dec 2024 - Jul 2025",
         logoUrl: "https://unbiasly.ai/icon.svg",
         description: [
-            "Enhanced unbiasly.ai (10M+ users) and built Career Portal with AI-powered Resume Parser, achieving 30% reduction in page load times.",
-            "Refactored Internal Admin Panel with modular architecture, reducing publishing time by 67%.",
-            "Built full-stack platform for bureaucrats using Next.js, TanStack Query, and REST APIs with secure data orchestration.",
+            "Built an AI-powered career portal with resume parsing and recruitment workflows.",
+            "Created internal tools and full-stack applications using Next.js and modern web stuff.",
         ],
     },
 ];
 
 export const PROJECTS_CONTENT = {
-    latestProject : {
+    latestProject: {
         title: "Tabenspace",
         description:
             "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
-        image: '/og-image.png',
+        image: "/og-image.png",
         href: "https://tabenspace.com",
     },
 
-
-    allProjects : [
+    allProjects: [
         {
             title: "Tabenspace",
             description:
                 "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
             tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
             href: "https://tabenspace.com",
-            image: "/tabenspace.png"
+            image: "/tabenspace.png",
         },
         {
-            title: "TaskBrew",
+            title: "Kanbrew",
             description: "Kanban Board task manager for Task Tracking",
-            tags: ["React", "TypeScript", "Next.js", "Node.js", "Express", "Neon"],
-            href: "https://github.com/arunabh-a/Task-Brew",
-            image: "/og-image.png"
+            tags: [
+                "React",
+                "TypeScript",
+                "Next.js",
+                "Node.js",
+                "Express",
+                "Neon",
+            ],
+            href: "https://github.com/arunabh-a/Kanbrew",
+            image: "/og-image.png",
         },
         {
             title: "AuthER",
@@ -129,7 +235,7 @@ export const PROJECTS_CONTENT = {
                 " Authentication Platform.. (working on to make it a proper authentication system for devs)",
             tags: ["Node", "TypeScript", "Express", "PostgreSQL (Docker)"],
             href: "https://github.com/arunabh-a/AuthER",
-            image: "/og-image.png"
+            image: "/og-image.png",
         },
         {
             title: "Shirclex",
@@ -137,7 +243,7 @@ export const PROJECTS_CONTENT = {
                 "A ThreeJS Application for rendering 3D Shirt Models with Logos and Textures.",
             tags: ["Three.js", "React", "JavaScript"],
             href: "https://github.com/arunabh-a/Shirclex",
-            image: "/experience/shirclex.png"
+            image: "/experience/shirclex.png",
         },
         {
             title: "ParTable",
@@ -145,11 +251,10 @@ export const PROJECTS_CONTENT = {
                 "A React Application for creating Dynamic Tables with Custom Data.",
             tags: ["React", "JavaScript"],
             href: "https://github.com/arunabh-a/ParTable",
-            image: "/og-image.png"
+            image: "/og-image.png",
         },
-    ]
+    ],
 };
-
 
 export const SOCIAL_LINKS = [
     {
@@ -157,14 +262,14 @@ export const SOCIAL_LINKS = [
         url: "https://www.linkedin.com/in/arunabhaa/",
         icon: "/icons/linkedin-fill.svg",
         description: "The Professional Me",
-        cta: 'Connect'
+        cta: "Connect",
     },
     {
         name: "GitHub",
         url: "https://github.com/arunabh-a",
         icon: "/icons/github-fill.svg",
         description: "My Home for all my Code",
-        cta: 'Visit'
+        cta: "Visit",
     },
     {
         // url: "https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab",
@@ -172,49 +277,50 @@ export const SOCIAL_LINKS = [
         url: "https://leetcode.com/u/arunabh-a/",
         icon: "/icons/leetcode.svg",
         description: "started to enjoy it",
-        cta: 'Visit'
+        cta: "Visit",
     },
     {
         name: "Discord",
         url: "https://discordapp.com/users/809714813562257418",
         icon: "/icons/discord-fill.svg",
         description: "Replaced by Google Meet",
-        cta: 'Visit'
+        cta: "Visit",
     },
     {
         name: "Hashnode",
         url: "https://blog.arunabh.online/",
         icon: "/icons/hashnode-white.png",
         description: "Where I write about Tech (or I will try to)",
-        cta: 'Read'
+        cta: "Read",
     },
     {
         name: "Twitter",
         url: "https://x.com/arunabh_2",
         icon: "/icons/twitter-x-fill.svg",
         description: "Good luck finding me post here",
-        cta: 'Follow'
+        cta: "Follow",
     },
     {
         name: "Google Developer",
         url: "https://g.dev/arunabha",
         icon: "/icons/gdev.png",
         description: "My Google Developer Profile",
-        cta: 'Visit'
+        cta: "Visit",
     },
     {
         name: "Instagram",
         url: "https://www.instagram.com/_arunabh.02",
         icon: "/icons/instagram-line.svg",
         description: "Not much to see here, just some random pictures",
-        cta: 'Follow'
+        cta: "Follow",
     },
     {
         name: "Steam",
         url: "https://steamcommunity.com/profiles/76561198866581261/",
         icon: "/icons/steam_64.png",
-        description: "I used to play, now i just have it for the badge collection",
-        cta: 'Visit'
+        description:
+            "I used to play, now i just have it for the badge collection",
+        cta: "Visit",
     },
 ];
 
