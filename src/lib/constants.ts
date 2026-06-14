@@ -23,7 +23,7 @@ export const PROFILE = {
         "Product-focused engineering",
         "Scalable backend systems",
     ],
-    avatarUrl: "/me.jpg",
+    avatarUrl: "/me-updated.png",
     email: "arunabh.nd@gmail.com",
 } as const;
 

@@ -52,7 +52,7 @@ const SkillsSection = () => {
                 {skills.map((skill) => (
                     <span
                         key={skill.name}
-                        className={`text-xs font-mono px-3 py-1.5 rounded-md border select-none ${getSkillStyle(skill.type)}`}
+                        className={`text-xs font-mono px-3 py-1.5 rounded-md border cursor-pointer select-none ${getSkillStyle(skill.type)}`}
                     >
                         <img src={skill.icon} alt={skill.name} className="inline-block w-4 h-4 mr-2" />
                         {skill.name}
