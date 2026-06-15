@@ -7,8 +7,8 @@ const HeroSection = () => {
         <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
             <div className="flex-1 space-y-3">
                 <BlurText
-                    text="Hello There, I'm "
-                    highlightText="arunabh 👋"
+                    text="Hello There,👋 I'm "
+                    highlightText="arunabh"
                     delay={100}
                     animateBy="words"
                     direction="top"
