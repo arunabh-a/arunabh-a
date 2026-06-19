@@ -1,6 +1,8 @@
+"use client";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
+import posthog from "posthog-js";
 
 export default function LinkPageItem({
     title,
@@ -13,26 +15,24 @@ export default function LinkPageItem({
     title: string;
     description: string;
     url: string;
-    icon: any;
+    icon: React.ReactNode | string;
     cta: string;
     svgIcon: boolean;
 }) {
-    const IconComponent = icon;
-    
     return (
         <div className="flex w-full items-center justify-between gap-4 rounded-md border-2 border-dashed bg-card px-5 py-3">
             <div className="flex items-center gap-6">
                 <span className="text-low-contrast-text">
                     {svgIcon ? (
                         <Image
-                            src={icon}
+                            src={icon as string}
                             alt={`${title} icon`}
                             width={28}
                             height={28}
                             className="text-low-contrast-text"
                         />
                     ) : (
-                        <IconComponent className="w-7 h-7 fill-none" />
+                        icon as React.ReactNode
                     )}
                 </span>
 
@@ -47,6 +47,13 @@ export default function LinkPageItem({
             <Link
                 className="flex items-center text-xs md:text-base font-mono rounded-md border border-border bg-card px-4 py-1"
                 href={url}
+                onClick={() =>
+                    posthog.capture("social_link_clicked", {
+                        link_title: title,
+                        link_url: url,
+                        link_cta: cta,
+                    })
+                }
             >
                 <span>{cta}</span>
             </Link>

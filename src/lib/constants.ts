@@ -324,6 +324,31 @@ export const SOCIAL_LINKS = [
     },
 ];
 
+export const OTHER_LINKS = [
+    {
+        name: "Spotify",
+        url: "https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab",
+        icon: "/icons/spotify.svg",
+        description: "",
+        cta: "Listen",
+    },
+    {
+        name: "Twitch",
+        url: "https://www.twitch.tv/palpsyy",
+        icon: "/icons/twitch.svg",
+        description: "",
+        cta: "Watch",
+    },
+    {
+        name: "Snapchat",
+        url: "https://www.snapchat.com/add/arunabh.a?share_id=iuA70jprQ-Q&locale=en-IN",
+        icon: "/icons/snapchat.svg",
+        description: "",
+        cta: "Add",
+    },
+]
+
+
 export const DOCK_LINKS = {
     // navbar: [
     //     { href: "/", icon: HomeIcon, label: "Home" },

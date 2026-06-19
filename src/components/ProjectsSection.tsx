@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import type React from "react";
 import { useEffect, useRef, useState } from "react";
+import posthog from "posthog-js";
 
 interface Project {
     title: string;
@@ -110,6 +111,13 @@ const ProjectsSection = () => {
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
                         rel="noopener noreferrer"
+                        onClick={() =>
+                            posthog.capture("project_clicked", {
+                                project_title: project.title,
+                                project_href: project.href,
+                                project_tags: project.tags,
+                            })
+                        }
                         className="group relative cursor-pointer block border-b border-border py-4 last:border-b-0"
                     >
                         <div

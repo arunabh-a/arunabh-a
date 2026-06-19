@@ -1,4 +1,5 @@
 import LinkPageItem from "@/components/LinkItem";
+import LatestProjectLink from "@/components/LatestProjectLink";
 import { LINKS_CONTENTS, PRODUCT_LINKS, PROFILE, PROJECTS_CONTENT, SOCIAL_LINKS } from "@/lib/constants";
 import { ChevronRight, Inbox, LinkIcon } from "lucide-react";
 import Image from "next/image";
@@ -33,30 +34,18 @@ const Page = () => {
 
                 <div className="flex flex-col gap-16">
                     <div className="flex w-full flex-col gap-4">
-                        <div className="flex flex-col gap-3 rounded-md font-mono border-2 border-dashed bg-card p-4">
-                            <div className="flex items-center justify-between">
-                                <span>Latest Product</span>
-                                <Link
-                                    className="flex items-center gap-1 font-sans text-md text-low-contrast-text hover:text-high-contrast-text hover:opacity-90"
-                                    href={PROJECTS_CONTENT.latestProject.href}
-                                >
-                                    <span>{PROJECTS_CONTENT.latestProject.title}</span>
-                                    <span className="transform transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:text-high-contrast-text">
-                                        <ChevronRight className="fill-none w-5 h-5" />
-                                    </span>
-                                </Link>
-                            </div>
-
-                            <Image src={PROJECTS_CONTENT.latestProject.image} alt={PROJECTS_CONTENT.latestProject.title} width={500} height={500} 
-                            className="rounded-lg object-cover h-full w-full" priority/> 
-                        </div>
+                        <LatestProjectLink
+                            title={PROJECTS_CONTENT.latestProject.title}
+                            href={PROJECTS_CONTENT.latestProject.href}
+                            image={PROJECTS_CONTENT.latestProject.image}
+                        />
 
                         <LinkPageItem
                             key="contact"
                             title="Contact me"
                             description="Reach out if you'd like to work together."
                             url={`mailto:${PROFILE.email}`}
-                            icon={Inbox}
+                            icon={<Inbox className="w-7 h-7 fill-none" />}
                             cta="Email"
                             svgIcon={false}
                         />
