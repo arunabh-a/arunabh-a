@@ -71,7 +71,7 @@ export default function Home() {
                 dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
             />
             <main className="min-h-screen bg-background">
-                <div className="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row gap-16">
+                <div className="max-w-5xl mx-auto px-5 flex flex-col md:flex-row gap-16">
                     <div className="flex-1 space-y-15">
                         <HeroSection />
                         <AboutSection />

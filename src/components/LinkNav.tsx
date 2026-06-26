@@ -12,6 +12,7 @@ import React, { useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import posthog from "posthog-js";
+import Image from "next/image";
 
 const DOCK_SIZE = 38;
 const DOCK_MAGNIFICATION = 40;
@@ -72,10 +73,12 @@ function NavDockItem({
                 )}
             >
                 {link.icon ? (
-                    <img
+                    <Image
                         src={link.icon}
                         alt={link.name}
-                        className="size-5 brightness-0 invert"
+                        width={typeof link.icon === 'string' && link.icon.endsWith('.png') ? 30 : 20}
+                        height={typeof link.icon === 'string' && link.icon.endsWith('.png') ? 30 : 20}
+                        className="brightness-0 invert"
                     />
                 ) : (
                     <span className="font-mono text-xs text-white">

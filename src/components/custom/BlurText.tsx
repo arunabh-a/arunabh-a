@@ -99,7 +99,7 @@ const BlurText: React.FC<BlurTextProps> = ({
     return (
         <p
             ref={ref}
-            className={`blur-text ${className} flex flex-nowrap font-mono text-xl md:text-5xl font-bold text-foreground`}
+            className={`blur-text ${className} flex w-full justify-center md:justify-start flex-wrap font-mono text-2xl md:text-4xl lg:text-5xl font-bold text-foreground`}
         >
             {springs.map((props, index) => (
                 <animated.span
@@ -115,7 +115,7 @@ const BlurText: React.FC<BlurTextProps> = ({
             ))}
             <animated.span
                 style={springs[elements.length]}
-                className={`blur-text ${className} text-nowrap lg:text-5xl font-mono text-xl inline-block transition-transform will-change-[transform,filter,opacity] text-[#6175F8] `}
+                className={`blur-text ${className} text-nowrap md:text-4xl lg:text-5xl font-mono text-2xl inline-block transition-transform will-change-[transform,filter,opacity] text-[#6175F8] `}
             >
                 {highlightText}
             </animated.span>

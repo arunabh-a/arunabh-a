@@ -78,7 +78,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${zain.variable} ${notoSansMono.variable} antialiased dark mx-auto py-10 px-4`}
+                className={`${zain.variable} ${notoSansMono.variable} antialiased dark mx-auto px-6 py-16`}
             >
                 <TooltipProvider>
                     <LinkNav />

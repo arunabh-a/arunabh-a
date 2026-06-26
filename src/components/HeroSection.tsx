@@ -5,14 +5,13 @@ import Image from "next/image";
 const HeroSection = () => {
     return (
         <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
-            <div className="flex-1 space-y-3">
+            <div className="flex flex-col justify-center items-center md:justify-start md:items-start space-y-3">
                 <BlurText
-                    text="Hello There,👋 I'm "
+                    text="Hello There, I'm "
                     highlightText="arunabh"
                     delay={100}
                     animateBy="words"
                     direction="top"
-                    className="text-2xl"
                 />
                 <p className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
                     {PROFILE.description}

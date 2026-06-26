@@ -28,7 +28,7 @@ export const PROFILE = {
 } as const;
 
 export const NAVIGATION_LINKS = [
-    { name: "home", href: "/", icon: "/home.svg" },
+    { name: "home", href: "/", icon: "/Arunabh-Logo.png" },
     { name: "journey", href: "/journey", icon: "/journey.svg" },
     { name: "links", href: "/links", icon: "/links.svg" },
 ];
