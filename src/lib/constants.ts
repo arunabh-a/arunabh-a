@@ -176,9 +176,9 @@ export const SKILLS = [
 
 export const EXPERIENCES: Experience[] = [
     {
-        company: "Hooc AI - Hoocup",
-        role: "Founding Software Developer",
-        period: "Aug 2025 - Present",
+        company: "Hooc AI - Hoocup (Early Stage Startup)",
+        role: "Full Stack Developer (Founding Team)",
+        period: "Aug 2025 - April 2026",
         logoUrl: "https://www.hooc.tech/favicon.ico",
         description: [
             "Worked on real-time notifications, background jobs, and the kind of infrastructure nobody notices when it works.",

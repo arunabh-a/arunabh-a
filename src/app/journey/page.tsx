@@ -125,7 +125,7 @@ const data = [
                     Started my Career
                 </p>
                 <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-xl font-normal mb-8">
-                    Worked with UnbiaslyAI as an Software Dev Intern. Also working with Hooc AI as a Founding Software Developer and Team Member.
+                    Interned at UnbiaslyAI as a Software Developer. Also worked with Hooc AI as a Full Stack Developer (Founding Team).
                 </p>
                 <div className="mb-8"></div>
                 <div className="grid grid-cols-2 gap-4">
