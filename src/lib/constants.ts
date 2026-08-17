@@ -9,10 +9,10 @@ export const PROFILE = {
     url: "https://arunabh.online",
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
-    description: "I build apps on web — fast, scalable, and actually useful.",
+    description: "I build apps and do leetcode sometimes. Mostly build apps :)",
     about: [
-        `I am a <strong>Full Stack Dev</strong> and I love to Build things.`,
-        `Currently I am building <strong><a href="https://tabenspace.com">Tabenspace</a></strong> — a customizable browser productivity dashboard designed to help users organize websites, notes, and daily workflows in one place. `,
+        `Full Stack Dev, currently building Tabenspace, a customizable browser productivity dashboard designed to help users organize their apps and sites along with thier daily workflows in one place. You can know more about it at <strong><a href="https://tabenspace.com">tabenspace.com</a></strong>`,
+        // 'Check my <strong><a href="/journey">Journey</a></strong>'
         // I got into computers early on and naturally gravitated toward engineering as a way to turn curiosity into working systems. Over the past few years, I’ve built a strong foundation in computer science and modern web development — starting with core languages like **Python, JavaScript and SQL**, and expanding into full-stack and cloud-focused tools such as **React, Next.js, Node.js, FastAPI, AWS, and Docker**.
 
         // I enjoy working end-to-end — from designing interfaces to building backend services, deploying them to the cloud, and iterating based on real usage. I’m always building something new, and actively looking for opportunities where I can grow and contribute as a Full-Stack developer.
@@ -269,10 +269,9 @@ export const SOCIAL_LINKS = [
         url: "https://github.com/arunabh-a",
         icon: "/icons/github-fill.svg",
         description: "My Home for all my Code",
-        cta: "Visit",
+        cta: "Check",
     },
     {
-        // url: "https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab",
         name: "Leetcode",
         url: "https://leetcode.com/u/arunabh-a/",
         icon: "/icons/leetcode.svg",
@@ -284,13 +283,13 @@ export const SOCIAL_LINKS = [
         url: "https://discordapp.com/users/809714813562257418",
         icon: "/icons/discord-fill.svg",
         description: "Replaced by Google Meet",
-        cta: "Visit",
+        cta: "Check",
     },
     {
         name: "Hashnode",
         url: "https://blog.arunabh.online/",
         icon: "/icons/hashnode-white.png",
-        description: "Where I write about Tech (or I will try to)",
+        description: "I'll start writing as well",
         cta: "Read",
     },
     {
@@ -307,21 +306,6 @@ export const SOCIAL_LINKS = [
         description: "My Google Developer Profile",
         cta: "Visit",
     },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/_arunabh.02",
-        icon: "/icons/instagram-line.svg",
-        description: "Not much to see here, just some random pictures",
-        cta: "Follow",
-    },
-    {
-        name: "Steam",
-        url: "https://steamcommunity.com/profiles/76561198866581261/",
-        icon: "/icons/steam_64.png",
-        description:
-            "I used to play, now i just have it for the badge collection",
-        cta: "Visit",
-    },
 ];
 
 export const OTHER_LINKS = [
@@ -331,6 +315,21 @@ export const OTHER_LINKS = [
         icon: "/icons/spotify.svg",
         description: "",
         cta: "Listen",
+    },
+    {
+        name: "Steam",
+        url: "https://steamcommunity.com/profiles/76561198866581261/",
+        icon: "/icons/steam_64.png",
+        description:
+        "I used to play, now i just have it for the badge collection",
+        cta: "Visit",
+    },
+    {
+        name: "Instagram",
+        url: "https://www.instagram.com/_arunabh.02",
+        icon: "/icons/instagram-line.svg",
+        description: "Not much to see here, just some random pictures",
+        cta: "Follow",
     },
     {
         name: "Twitch",

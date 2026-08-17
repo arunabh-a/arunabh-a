@@ -115,7 +115,7 @@ const BlurText: React.FC<BlurTextProps> = ({
             ))}
             <animated.span
                 style={springs[elements.length]}
-                className={`blur-text ${className} text-nowrap md:text-4xl lg:text-5xl font-mono text-2xl inline-block transition-transform will-change-[transform,filter,opacity] text-[#6175F8] `}
+                className={`blur-text ${className} text-nowrap md:text-4xl lg:text-5xl font-mono text-2xl inline-block transition-transform will-change-[transform,filter,opacity] text-primary `}
             >
                 {highlightText}
             </animated.span>

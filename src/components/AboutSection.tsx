@@ -6,7 +6,7 @@ const AboutSection = () => {
             <h2 className="text-sm font-semibold text-foreground font-mono mb-4">
                 About
             </h2>
-            <div className=" text-muted-foreground leading-relaxed text-sm md:text-base">
+            <div className=" text-muted-foreground leading-relaxed text-xs md:text-sm">
                 {PROFILE.about.map((sentence, index) => (
                     <div key={index}>
                         <span

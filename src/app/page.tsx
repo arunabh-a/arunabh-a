@@ -70,7 +70,7 @@ export default function Home() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
             />
-            <main className="min-h-screen bg-background">
+            <main className="min-h-screen ">
                 <div className="max-w-5xl mx-auto px-5 flex flex-col md:flex-row gap-16">
                     <div className="flex-1 space-y-15">
                         <HeroSection />

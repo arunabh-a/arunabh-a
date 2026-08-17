@@ -20,7 +20,7 @@ export default function LinkPageItem({
     svgIcon: boolean;
 }) {
     return (
-        <div className="flex w-full items-center justify-between gap-4 rounded-md border-2 border-dashed bg-card px-5 py-3">
+        <div className="flex w-full items-center justify-between gap-4 rounded-md border-[1.5] bg-card px-5 py-3">
             <div className="flex items-center gap-6">
                 <span className="text-low-contrast-text">
                     {svgIcon ? (
@@ -38,14 +38,14 @@ export default function LinkPageItem({
 
                 <div className="flex font-mono flex-col">
                     <span>{title}</span>
-                    <span className="text-xs md:text-sm text-low-contrast-text">
+                    {/* <span className="text-xs md:text-sm text-low-contrast-text">
                         {description}
-                    </span>
+                    </span> */}
                 </div>
             </div>
 
             <Link
-                className="flex items-center text-xs md:text-base font-mono rounded-md border border-border bg-card px-4 py-1"
+                className="flex items-center text-xs md:text-sm font-mono rounded-md underline bg-card px-2 py-1"
                 href={url}
                 onClick={() =>
                     posthog.capture("social_link_clicked", {

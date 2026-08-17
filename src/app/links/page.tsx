@@ -29,7 +29,10 @@ const Page = () => {
             <div className="flex max-w-3xl flex-col gap-8">
                 <div className=" flex-col gap-4">
                     <h1 className="text-3xl font-mono font-semibold">Links</h1>
-                    <p className="text-sm text-muted-foreground">Quicklinks to my social platforms and projects.</p>
+                    <p className="text-sm font-bold text-muted-foreground">
+                        Can't remember my handle? Just go to <span className="font-mono text-primary">'arunabh.online/(platform)'</span>.<br />
+                        Add the platform name and you'll be redirected. makes sharing super easy!
+                    </p>
                 </div>
 
                 <div className="flex flex-col gap-16">
@@ -42,11 +45,11 @@ const Page = () => {
 
                         <LinkPageItem
                             key="contact"
-                            title="Contact me"
-                            description="Reach out if you'd like to work together."
+                            title="My Email"
+                            description="Reach out if you'd like to get in touch."
                             url={`mailto:${PROFILE.email}`}
                             icon={<Inbox className="w-7 h-7 fill-none" />}
-                            cta="Email"
+                            cta="Contact"
                             svgIcon={false}
                         />
 

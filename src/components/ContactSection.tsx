@@ -18,14 +18,14 @@ const ContactSection = () => {
         Reach me at{" "}
         <a
           href={`mailto:${PROFILE.email}`}
-          className="text-foreground underline underline-offset-4 hover:text-primary transition-colors"
+          className="text-foreground underline underline-offset-4 hover:text-accent transition-colors"
           onClick={() =>
             posthog.capture("contact_email_clicked", { email: PROFILE.email })
           }
         >
           {PROFILE.email}
         </a>{" "}
-        or connect on social media below.
+        if you'd like to get in touch.
       </p>
       {/* <div className="flex gap-3">
         {contacts.map(({ icon: Icon, label, href }) => (

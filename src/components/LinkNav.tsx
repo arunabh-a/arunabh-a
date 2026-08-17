@@ -161,7 +161,7 @@ const LinkNav = () => {
                         }
                     >
                         <Link
-                            className="flex font-mono font-semibold text-sm items-center gap-2 text-neutral-400 hover:text-white"
+                            className="flex font-mono font-semibold text-sm items-center gap-2 text-neutral-200 hover:text-accent"
                             href={link.href}
                             onClick={() =>
                                 posthog.capture("nav_link_clicked", {
