@@ -1,7 +1,7 @@
 <wizard-report>
 # PostHog post-wizard report
 
-The wizard has completed a deep integration of PostHog into the portfolio site (`arunabh.online`). PostHog is initialized client-side via `instrumentation-client.ts` (Next.js 15.3+ pattern), routed through a reverse proxy (`/ingest`) added to `next.config.ts`, and backed by a shared server-side client in `src/lib/posthog-server.ts`. Exception capture (`capture_exceptions: true`) is enabled for automatic error tracking. 11 events are instrumented across 8 files — 8 client-side and 3 server-side. The pre-existing `link_redirect` server event was migrated to the shared PostHog client helper and the missing `links` lookup map was reconstructed from constants.
+The wizard has completed a deep integration of PostHog into the portfolio site (`arunabh.app`). PostHog is initialized client-side via `instrumentation-client.ts` (Next.js 15.3+ pattern), routed through a reverse proxy (`/ingest`) added to `next.config.ts`, and backed by a shared server-side client in `src/lib/posthog-server.ts`. Exception capture (`capture_exceptions: true`) is enabled for automatic error tracking. 11 events are instrumented across 8 files — 8 client-side and 3 server-side. The pre-existing `link_redirect` server event was migrated to the shared PostHog client helper and the missing `links` lookup map was reconstructed from constants.
 
 | Event | Description | File |
 |---|---|---|

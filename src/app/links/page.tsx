@@ -30,7 +30,7 @@ const Page = () => {
                 <div className=" flex-col gap-4">
                     <h1 className="text-3xl font-mono font-semibold">Links</h1>
                     <p className="text-sm font-bold text-muted-foreground">
-                        Can't remember my handle? Just go to <span className="font-mono text-primary">'arunabh.online/(platform)'</span>.<br />
+                        Can't remember my handle? Just go to <span className="font-mono text-primary">'arunabh.app/(platform)'</span>.<br />
                         Add the platform name and you'll be redirected. makes sharing super easy!
                     </p>
                 </div>

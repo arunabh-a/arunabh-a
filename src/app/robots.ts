@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
 	  { userAgent: "facebookexternalhit", allow: "/" },
 	  { userAgent: "*", allow: "/" },
 	],
-	sitemap: "https://arunabh.online/sitemap.xml",
+	sitemap: "https://arunabh.app/sitemap.xml",
   };
 }

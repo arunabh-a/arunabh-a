@@ -6,7 +6,7 @@ export const SUPPORTED_LANGUAGES = ["en", "es", "fr", "de"];
 export const PROFILE = {
     name: "Arunabh Bhattacharya",
     initials: "AB",
-    url: "https://arunabh.online",
+    url: "https://arunabh.app",
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
     description: "I build apps and do leetcode sometimes. Mostly build apps :)",
@@ -287,7 +287,7 @@ export const SOCIAL_LINKS = [
     },
     {
         name: "Hashnode",
-        url: "https://blog.arunabh.online/",
+        url: "https://arunabh.hashnode.dev/",
         icon: "/icons/hashnode-white.png",
         description: "I'll start writing as well",
         cta: "Read",
@@ -373,7 +373,7 @@ export const DOCK_LINKS = {
             },
             Hashnode: {
                 name: "Hashnode",
-                url: "https://blog.arunabh.online/",
+                url: "https://blog.arunabh.app/",
                 icon: "/icons/hashnode-white.png",
             },
         },

@@ -42,7 +42,7 @@ const jsonLd = {
         "https://github.com/arunabh-a",
         "https://www.linkedin.com/in/arunabhaa/",
         "https://x.com/arunabh_2",
-        "https://blog.arunabh.online/",
+        "https://arunabh.hashnode.dev/",
         "https://g.dev/arunabha",
     ],
     knowsAbout: [
