@@ -1,8 +1,6 @@
-"use client";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import posthog from "posthog-js";
 
 export default function LinkPageItem({
     title,
@@ -47,13 +45,6 @@ export default function LinkPageItem({
             <Link
                 className="flex items-center text-xs md:text-sm font-mono rounded-md underline bg-card px-2 py-1"
                 href={url}
-                onClick={() =>
-                    posthog.capture("social_link_clicked", {
-                        link_title: title,
-                        link_url: url,
-                        link_cta: cta,
-                    })
-                }
             >
                 <span>{cta}</span>
             </Link>

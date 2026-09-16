@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { getPostHogClient } from "@/lib/posthog-server";
 export async function POST(req: Request) {
     try {
         // Log the incoming request
@@ -14,13 +13,6 @@ export async function POST(req: Request) {
         
         const { name, email, message } = await req.json();
         console.log("Received data:", { name, email, messageLength: message?.length });
-
-        const posthog = getPostHogClient();
-        posthog.capture({
-            distinctId: email || crypto.randomUUID(),
-            event: "contact_form_submitted",
-            properties: { name, email, message_length: message?.length },
-        });
 
         // Validate input
         if (!name || !email || !message) {
@@ -108,12 +100,6 @@ export async function POST(req: Request) {
             const info = await transporter.sendMail(mailOptions);
             console.log("Email sent successfully:", info.messageId);
 
-            posthog.capture({
-                distinctId: email,
-                event: "contact_form_sent",
-                properties: { name, email, message_id: info.messageId },
-            });
-
             return NextResponse.json(
                 {
                     message: "Email sent successfully!",
@@ -123,11 +109,6 @@ export async function POST(req: Request) {
             );
         } catch (error) {
             console.error("Error sending email:", error);
-            posthog.capture({
-                distinctId: email || crypto.randomUUID(),
-                event: "contact_form_failed",
-                properties: { name, email, error: String(error) },
-            });
             return NextResponse.json(
                 { error: "Failed to send email" },
                 { status: 500 }

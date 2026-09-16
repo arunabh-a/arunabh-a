@@ -1,4 +1,3 @@
-import { getPostHogClient } from "@/lib/posthog-server";
 import { OTHER_LINKS, SOCIAL_LINKS } from "@/lib/constants";
 
 const links: Record<string, string> = Object.fromEntries([
@@ -7,7 +6,7 @@ const links: Record<string, string> = Object.fromEntries([
 ]);
 
 export async function GET(
-    req: Request,
+    _req: Request,
     { params }: { params: Promise<{ link: string }> },
 ) {
     const { link } = await params;
@@ -17,17 +16,6 @@ export async function GET(
     if (!target) {
         return new Response("Not Found", { status: 404 });
     }
-
-    const posthog = getPostHogClient();
-    posthog.capture({
-        distinctId: crypto.randomUUID(),
-        event: "link_redirect",
-        properties: {
-            link,
-            target,
-            userAgent: req.headers.get("user-agent"),
-        },
-    });
 
     return Response.redirect(target, 302);
 }

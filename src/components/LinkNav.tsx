@@ -11,7 +11,6 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
-import posthog from "posthog-js";
 import Image from "next/image";
 
 const DOCK_SIZE = 38;
@@ -58,13 +57,6 @@ function NavDockItem({
             <Link
                 href={link.href}
                 aria-label={link.name}
-                onClick={() =>
-                    posthog.capture("nav_link_clicked", {
-                        nav_label: link.name,
-                        nav_href: link.href,
-                        nav_type: "mobile_dock",
-                    })
-                }
                 className={cn(
                     "flex size-10 items-center justify-center rounded-xl transition-colors",
                     isActive
@@ -163,13 +155,6 @@ const LinkNav = () => {
                         <Link
                             className="flex font-mono font-semibold text-sm items-center gap-2 text-neutral-200 hover:text-accent"
                             href={link.href}
-                            onClick={() =>
-                                posthog.capture("nav_link_clicked", {
-                                    nav_label: link.name,
-                                    nav_href: link.href,
-                                    nav_type: "desktop_sidebar",
-                                })
-                            }
                         >
                             <div className="flex items-center justify-center">
                                 {index + 1}.

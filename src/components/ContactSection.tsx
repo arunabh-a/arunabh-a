@@ -1,7 +1,5 @@
-"use client";
 import { PROFILE } from "@/lib/constants";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
-import posthog from "posthog-js";
 
 // const contacts = [
 //   { icon: Github, label: "GitHub", href: "https://github.com" },
@@ -19,9 +17,6 @@ const ContactSection = () => {
         <a
           href={`mailto:${PROFILE.email}`}
           className="text-foreground underline underline-offset-4 hover:text-accent transition-colors"
-          onClick={() =>
-            posthog.capture("contact_email_clicked", { email: PROFILE.email })
-          }
         >
           {PROFILE.email}
         </a>{" "}

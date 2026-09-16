@@ -1,8 +1,6 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import posthog from "posthog-js";
 
 interface LatestProjectLinkProps {
     title: string;
@@ -18,12 +16,6 @@ export default function LatestProjectLink({ title, href, image }: LatestProjectL
                 <Link
                     className="flex items-center gap-1 font-sans text-md text-low-contrast-text hover:text-high-contrast-text hover:opacity-90"
                     href={href}
-                    onClick={() =>
-                        posthog.capture("latest_project_clicked", {
-                            project_title: title,
-                            project_href: href,
-                        })
-                    }
                 >
                     <span>{title}</span>
                     <span className="transform transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:text-high-contrast-text">
