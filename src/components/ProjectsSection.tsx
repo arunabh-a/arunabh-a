@@ -88,7 +88,7 @@ const ProjectsSection = () => {
                 className={`pointer-events-none fixed left-0 top-0 z-50 overflow-hidden rounded-xl shadow-2xl transition-all duration-300 ease-out ${isVisible ? " opacity-100" : " opacity-0"}`}
             >
                 {/*TODO: lg:w-sm */}
-                <div className="relative  aspect-video overflow-hidden rounded-lg bg-secondary/20 backdrop-blur-xl">
+                <div className="relative aspect-video overflow-hidden rounded-lg bg-secondary/20 backdrop-blur-xl">
                     {projects.map((project, index) => (
                         <img
                             key={project.title}
