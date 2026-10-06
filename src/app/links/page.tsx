@@ -8,16 +8,16 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Links",
+    title: "Links — Arunabh Bhattacharya",
     description:
-        "All my social profiles, projects, and useful links in one place — GitHub, LinkedIn, Twitter, Hashnode, and more.",
+        "All verified profiles and links for Arunabh Bhattacharya — Full Stack Developer & Software Engineer. Connect on LinkedIn, GitHub, LeetCode, and explore Tabenspace.",
     alternates: {
         canonical: `${PROFILE.url}/links`,
     },
     openGraph: {
-        title: `Links | ${PROFILE.name}`,
+        title: `Links | ${PROFILE.name} — Full Stack Developer`,
         description:
-            "All my social profiles, projects, and useful links in one place.",
+            "Official profiles and web presence for Arunabh Bhattacharya — LinkedIn, GitHub, and projects.",
         url: `${PROFILE.url}/links`,
     },
 };
@@ -28,10 +28,9 @@ const Page = () => {
         <div className="flex items-center justify-center">
             <div className="flex max-w-3xl flex-col gap-8">
                 <div className=" flex-col gap-4">
-                    <h1 className="text-3xl font-mono font-semibold">Links</h1>
+                    <h1 className="text-3xl font-mono font-semibold">Links &bull; Arunabh Bhattacharya</h1>
                     <p className="text-sm font-bold text-muted-foreground">
-                        Can't remember my handle? Just go to <span className="font-mono text-primary">'arunabh.app/(platform)'</span>.<br />
-                        Add the platform name and you'll be redirected. makes sharing super easy!
+                        Full Stack Developer &bull; Software Engineer &bull; Connect across platforms or visit <span className="font-mono text-primary">'arunabh.app/(platform)'</span> to redirect.
                     </p>
                 </div>
 

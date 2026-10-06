@@ -71,6 +71,7 @@ const ProjectsSection = () => {
     return (
         <section
             id="projects"
+            aria-labelledby="projects-heading"
             ref={containerRef}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
@@ -80,7 +81,7 @@ const ProjectsSection = () => {
                 Projects
             </h2>
             <p className="text-xs text-muted-foreground mb-4">
-                A few things I've built.
+                Full-stack software engineering projects, web applications, and developer tools.
             </p>
 
             <div

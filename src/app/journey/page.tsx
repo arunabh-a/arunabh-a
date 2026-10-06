@@ -6,16 +6,16 @@ import type { Metadata } from "next";
 import { PROFILE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Journey",
+    title: "Journey — Arunabh Bhattacharya",
     description:
-        "My developer journey from 2021 to present — hackathons, projects, internships, and building products.",
+        "Developer journey of Arunabh Bhattacharya from 2021 to present — hackathons, full-stack projects, founding startup engineering, and building Tabenspace.",
     alternates: {
         canonical: `${PROFILE.url}/journey`,
     },
     openGraph: {
-        title: `Journey | ${PROFILE.name}`,
+        title: `Journey | ${PROFILE.name} — Full Stack Developer`,
         description:
-            "My developer journey from 2021 to present — hackathons, projects, internships, and building products.",
+            "Software engineering journey, hackathons, and projects by Arunabh Bhattacharya.",
         url: `${PROFILE.url}/journey`,
     },
 };
@@ -168,8 +168,8 @@ const Page = () => {
         <div className="flex items-center justify-center">
             <div className="md:max-w-5xl">
                 <div className=" w-full flex-col gap-2 flex px-4">
-                    <h1 className="text-3xl font-mono font-semibold">Journey So Far</h1>
-                    <p className="text-sm text-muted-foreground">Some of the highlights of my developer journey over the years.</p>
+                    <h1 className="text-3xl font-mono font-semibold">Developer Journey &bull; Arunabh Bhattacharya</h1>
+                    <p className="text-sm text-muted-foreground">Software engineering milestones, hackathons, startup roles, and building Tabenspace.</p>
                 </div>
                 <Timeline data={data} />
             </div>

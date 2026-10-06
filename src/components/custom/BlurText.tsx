@@ -12,6 +12,7 @@ interface BlurTextProps {
     rootMargin?: string;
     highlightText?: string;
     easing?: any;
+    as?: "p" | "h1" | "h2" | "span" | "div";
 }
 
 const BlurText: React.FC<BlurTextProps> = ({
@@ -24,10 +25,12 @@ const BlurText: React.FC<BlurTextProps> = ({
     rootMargin = "0px", // optional
     highlightText = "",
     easing = "easeOutCubic",
+    as = "p",
 }) => {
-    const elements = animateBy === "words" ? text.split(" ") : text.split("");
+    const rawElements = animateBy === "words" ? text.trim().split(" ") : text.split("");
+    const elements = rawElements.filter(Boolean);
     const [inView, setInView] = useState(false);
-    const ref = useRef<HTMLParagraphElement>(null);
+    const ref = useRef<HTMLDivElement>(null);
     const animatedCount = useRef(0);
 
     // Default animations based on direction
@@ -96,30 +99,32 @@ const BlurText: React.FC<BlurTextProps> = ({
         })),
     );
 
+    const Component = (as ?? "p") as any;
+
     return (
-        <p
+        <Component
             ref={ref}
             className={`blur-text ${className} flex w-full justify-center md:justify-start flex-wrap font-mono text-2xl md:text-4xl lg:text-5xl font-bold text-foreground`}
         >
-            {springs.map((props, index) => (
+            {springs.slice(0, elements.length).map((props, index) => (
                 <animated.span
                     key={index}
                     style={props}
                     className="inline-block transition-transform will-change-[transform,filter,opacity]"
                 >
                     {elements[index] === " " ? "\u00A0" : elements[index]}
-                    {animateBy === "words" &&
-                        index < elements.length - 1 &&
-                        "\u00A0"}
+                    {animateBy === "words" && "\u00A0"}
                 </animated.span>
             ))}
-            <animated.span
-                style={springs[elements.length]}
-                className={`blur-text ${className} text-nowrap md:text-4xl lg:text-5xl font-mono text-2xl inline-block transition-transform will-change-[transform,filter,opacity] text-primary `}
-            >
-                {highlightText}
-            </animated.span>
-        </p>
+            {highlightText && (
+                <animated.span
+                    style={springs[elements.length]}
+                    className={`blur-text ${className} md:text-4xl lg:text-5xl font-mono text-2xl inline-block transition-transform will-change-[transform,filter,opacity] text-primary`}
+                >
+                    {highlightText}
+                </animated.span>
+            )}
+        </Component>
     );
 };
 

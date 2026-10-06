@@ -45,6 +45,9 @@ export default function LinkPageItem({
             <Link
                 className="flex items-center text-xs md:text-sm font-mono rounded-md underline bg-card px-2 py-1"
                 href={url}
+                target={url.startsWith("http") ? "_blank" : undefined}
+                rel={url.startsWith("http") ? "me noopener noreferrer" : undefined}
+                aria-label={`${cta} ${title} — Arunabh Bhattacharya`}
             >
                 <span>{cta}</span>
             </Link>

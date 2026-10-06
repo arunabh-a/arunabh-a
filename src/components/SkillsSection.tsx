@@ -41,12 +41,12 @@ const getSkillStyle = (type: string) => {
 const SkillsSection = () => {
 
     return (
-        <section id="skills">
-            <h2 className="text-sm font-semibold text-foreground font-mono mb-1">
-                Skills
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading" className="text-sm font-semibold text-foreground font-mono mb-1">
+                Technical Stack & Tools I work with
             </h2>
             <p className="text-xs text-muted-foreground mb-4">
-                I work with these
+                Full-stack technologies including Node.js, Next.js, React, TypeScript, Python, and cloud infrastructure.
             </p>
             <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (

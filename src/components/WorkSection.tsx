@@ -34,8 +34,10 @@ function LogoImage({ src, alt }: { src: string; alt: string }) {
 export default function WorkSection() {
     const experiences = EXPERIENCES;
     return (
-        <section>
-            <h2 className="text-sm font-semibold text-foreground font-mono">Career</h2>
+        <section id="experience" aria-labelledby="experience-heading">
+            <h2 id="experience-heading" className="text-sm font-semibold text-foreground font-mono">
+                Career 
+            </h2>
             <p className="text-xs text-muted-foreground mb-4">
                 Some of the roles I've had.
             </p>

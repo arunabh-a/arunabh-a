@@ -1,43 +1,53 @@
-import { PROFILE } from "@/lib/constants";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
-
-// const contacts = [
-//   { icon: Github, label: "GitHub", href: "https://github.com" },
-//   { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-//   { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
-//   { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
-// ];
+import { PROFILE, SOCIAL_LINKS } from "@/lib/constants";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 const ContactSection = () => {
-  return (
-    <section id="contact">
-      <h2 className="text-sm font-semibold text-foreground font-mono mb-4">Connect</h2>
-      <p className="text-xs text-muted-foreground mb-5">
-        Reach me at{" "}
-        <a
-          href={`mailto:${PROFILE.email}`}
-          className="text-foreground underline underline-offset-4 hover:text-accent transition-colors"
-        >
-          {PROFILE.email}
-        </a>{" "}
-        if you'd like to get in touch.
-      </p>
-      {/* <div className="flex gap-3">
-        {contacts.map(({ icon: Icon, label, href }) => (
-          <a
-            key={label}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-8 h-8 rounded-md border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/20 transition-colors"
-            aria-label={label}
-          >
-            <Icon className="w-3.5 h-3.5" />
-          </a>
-        ))}
-      </div> */}
-    </section>
-  );
+    return (
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2
+                id="contact-heading"
+                className="text-sm font-semibold text-foreground font-mono mb-2"
+            >
+                Connect &bull; Arunabh Bhattacharya
+            </h2>
+            <p className="text-xs text-muted-foreground mb-4 leading-relaxed">
+                Looking for me for your team or project?
+                Reach out directly at{" "}
+                <a
+                    href={`mailto:${PROFILE.email}`}
+                    className="text-foreground underline underline-offset-4 hover:text-primary transition-colors font-mono"
+                >
+                    {PROFILE.email}
+                </a>{" "}
+                or connect across my verified profiles below.
+            </p>
+
+            <div className="flex flex-wrap gap-2.5 pt-1">
+                {SOCIAL_LINKS.map((social) => (
+                    <Link
+                        key={social.name}
+                        href={social.url}
+                        target="_blank"
+                        rel="me noopener noreferrer"
+                        className="group inline-flex items-center gap-2 rounded-lg border border-border bg-card/60 px-3 py-1.5 text-xs font-mono text-muted-foreground hover:border-primary/50 hover:bg-card hover:text-foreground transition-all"
+                        aria-label={`${social.name}: Arunabh Bhattacharya`}
+                    >
+                        <Image
+                            src={social.icon}
+                            alt={`${social.name} icon`}
+                            width={16}
+                            height={16}
+                            className="w-4 h-4 object-contain brightness-90 group-hover:brightness-100"
+                        />
+                        <span>{social.name}</span>
+                        <ArrowUpRight className="w-3 h-3 text-muted-foreground/50 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                    </Link>
+                ))}
+            </div>
+        </section>
+    );
 };
 
 export default ContactSection;

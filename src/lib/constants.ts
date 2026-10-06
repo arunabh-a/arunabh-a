@@ -9,19 +9,18 @@ export const PROFILE = {
     url: "https://arunabh.app",
     location: "Ghaziabad, India",
     locationLink: "https://www.google.com/maps/place/ghaziabad",
-    description: "I build apps and do leetcode sometimes. Mostly build apps :)",
+    description:
+        "Software Engineer and Proprietor of Crohent Labs.",
     about: [
-        `Full Stack Dev, currently building Tabenspace, a customizable browser productivity dashboard designed to help users organize their apps and sites along with thier daily workflows in one place. You can know more about it at <strong><a href="https://tabenspace.com">tabenspace.com</a></strong>`,
-        // 'Check my <strong><a href="/journey">Journey</a></strong>'
-        // I got into computers early on and naturally gravitated toward engineering as a way to turn curiosity into working systems. Over the past few years, I’ve built a strong foundation in computer science and modern web development — starting with core languages like **Python, JavaScript and SQL**, and expanding into full-stack and cloud-focused tools such as **React, Next.js, Node.js, FastAPI, AWS, and Docker**.
-
-        // I enjoy working end-to-end — from designing interfaces to building backend services, deploying them to the cloud, and iterating based on real usage. I’m always building something new, and actively looking for opportunities where I can grow and contribute as a Full-Stack developer.
+        `I got into computers out of curiosity about how things work under the hood, and quickly got hooked on turning ideas into software. That path took me through hackathons, early-stage startups, and an obsession with building for the web.`,
+        `Today, I run <strong><a href="https://crohent.com" target="_blank" rel="noopener noreferrer">Crohent Labs</a></strong>, my product studio building software to make digital life better. Right now, most of my focus is on <strong><a href="https://tabenspace.com" target="_blank" rel="noopener noreferrer">Tabenspace</a></strong>—a visual workspace built to tame browser tab chaos. When I'm not shipping products, you'll usually find me exploring new tech or on LeetCode.`,
     ],
     aboutPoints: [
-        "Developer tools",
-        "Web performance",
-        "Product-focused engineering",
-        "Scalable backend systems",
+        "Product Studio & Founder",
+        "Full Stack Engineering",
+        "Backend Architecture & Node.js",
+        "Tabenspace & Productivity Tools",
+        "Cloud & Distributed Systems",
     ],
     avatarUrl: "/me-updated.png",
     email: "arunabh.nd@gmail.com",
@@ -176,23 +175,32 @@ export const SKILLS = [
 
 export const EXPERIENCES: Experience[] = [
     {
+        company: "Crohent Labs",
+        role: "Founder & Proprietor",
+        period: "July 2026 - Present",
+        logoUrl: "https://www.crohent.com/favicon.ico",
+        description: [
+            "Building and scaling products and services to help people live better lives.",
+        ],
+    },
+    {
         company: "Hooc AI - Hoocup (Early Stage Startup)",
         role: "Full Stack Developer (Founding Team)",
         period: "Aug 2025 - April 2026",
         logoUrl: "https://www.hooc.tech/favicon.ico",
         description: [
-            "Worked on real-time notifications, background jobs, and the kind of infrastructure nobody notices when it works.",
-            "Automated deployments, monitoring, and cloud infrastructure across GCP and Oracle Cloud.",
+            "Architected full stack features with Node.js and modern frameworks for real-time notifications, background jobs, and distributed backend services.",
+            "Automated CI/CD deployments, monitoring, and cloud infrastructure across GCP and Oracle Cloud.",
         ],
     },
     {
         company: "UnbiaslyAI",
-        role: "Intern - Software Developer",
+        role: "Software Developer Intern",
         period: "Dec 2024 - Jul 2025",
         logoUrl: "https://unbiasly.ai/icon.svg",
         description: [
-            "Built an AI-powered career portal with resume parsing and recruitment workflows.",
-            "Created internal tools and full-stack applications using Next.js and modern web stuff.",
+            "Built an AI-powered recruitment career portal with resume parsing and candidate evaluation workflows.",
+            "Engineered full stack applications and internal developer tooling utilizing Next.js, Node.js, and TypeScript.",
         ],
     },
 ];
@@ -201,8 +209,8 @@ export const PROJECTS_CONTENT = {
     latestProject: {
         title: "Tabenspace",
         description:
-            "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
-        image: "/og-image.png",
+            "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs. Built by Arunabh Bhattacharya using Next.js, React, TypeScript, and Supabase.",
+        image: "/tabenspace-og.png",
         href: "https://tabenspace.com",
     },
 
@@ -210,14 +218,15 @@ export const PROJECTS_CONTENT = {
         {
             title: "Tabenspace",
             description:
-                "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs.",
+                "Your digital control center — a smart, visual, and customizable dashboard that replaces bookmarks, folders, and endless browser tabs. Built with Next.js, React, TypeScript, and Supabase.",
             tags: ["React", "TypeScript", "Next.js", "Supabase", "Tailwind"],
             href: "https://tabenspace.com",
             image: "/tabenspace.png",
         },
         {
             title: "Kanbrew",
-            description: "Kanban Board task manager for Task Tracking",
+            description:
+                "Kanban board task manager and tracking system built with Next.js, React, Node.js, Express, and PostgreSQL.",
             tags: [
                 "React",
                 "TypeScript",
@@ -227,20 +236,20 @@ export const PROJECTS_CONTENT = {
                 "Neon",
             ],
             href: "https://github.com/arunabh-a/Kanbrew",
-            image: "/og-image.png",
+            image: "/Arunabh-Logo.png",
         },
         {
             title: "AuthER",
             description:
-                " Authentication Platform.. (working on to make it a proper authentication system for devs)",
+                "Developer-first authentication platform and backend authorization system built with Node.js, TypeScript, Express, and Dockerized PostgreSQL.",
             tags: ["Node", "TypeScript", "Express", "PostgreSQL (Docker)"],
             href: "https://github.com/arunabh-a/AuthER",
-            image: "/og-image.png",
+            image: "/Arunabh-Logo.png",
         },
         {
             title: "Shirclex",
             description:
-                "A ThreeJS Application for rendering 3D Shirt Models with Logos and Textures.",
+                "Interactive 3D web application for real-time apparel model rendering with logos and textures using Three.js, React, and JavaScript.",
             tags: ["Three.js", "React", "JavaScript"],
             href: "https://github.com/arunabh-a/Shirclex",
             image: "/experience/shirclex.png",
@@ -248,10 +257,10 @@ export const PROJECTS_CONTENT = {
         {
             title: "ParTable",
             description:
-                "A React Application for creating Dynamic Tables with Custom Data.",
+                "High-performance dynamic table creator and data management application built with React and JavaScript.",
             tags: ["React", "JavaScript"],
             href: "https://github.com/arunabh-a/ParTable",
-            image: "/og-image.png",
+            image: "/Arunabh-Logo.png",
         },
     ],
 };
@@ -299,6 +308,9 @@ export const SOCIAL_LINKS = [
         description: "Good luck finding me post here",
         cta: "Follow",
     },
+];
+
+export const OTHER_LINKS = [
     {
         name: "Google Developer",
         url: "https://g.dev/arunabha",
@@ -306,9 +318,6 @@ export const SOCIAL_LINKS = [
         description: "My Google Developer Profile",
         cta: "Visit",
     },
-];
-
-export const OTHER_LINKS = [
     {
         name: "Spotify",
         url: "https://open.spotify.com/user/o9pmdmo3l3lvhihv87srf8bfg?si=668b885d71c546ab",
@@ -326,7 +335,7 @@ export const OTHER_LINKS = [
     },
     {
         name: "Instagram",
-        url: "https://www.instagram.com/_arunabh.02",
+        url: "https://www.instagram.com/arunabh.a",
         icon: "/icons/instagram-line.svg",
         description: "Not much to see here, just some random pictures",
         cta: "Follow",
