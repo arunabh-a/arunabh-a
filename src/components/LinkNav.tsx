@@ -12,6 +12,7 @@ import React, { useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { ArrowUpRightFromCircle } from "lucide-react";
 
 const DOCK_SIZE = 38;
 const DOCK_MAGNIFICATION = 40;
@@ -121,7 +122,7 @@ const LinkNav = () => {
             {/* Mobile: magnifying bottom dock */}
             <motion.nav
                 aria-label="Site navigation"
-                className="md:hidden fixed bottom-6 left-1/2 z-50 flex h-14.5 -translate-x-1/2 items-end justify-center gap-2 rounded-2xl border border-white/10 bg-card/80 px-3 pb-2 backdrop-blur-md"
+                className="lg:hidden fixed bottom-6 left-1/2 z-50 flex h-14.5 -translate-x-1/2 items-end justify-center gap-2 rounded-2xl border border-white/10 bg-card/80 px-3 pb-2 backdrop-blur-md"
                 onMouseMove={(e) => mouseX.set(e.pageX)}
                 onMouseLeave={() => mouseX.set(Infinity)}
             >
@@ -138,7 +139,7 @@ const LinkNav = () => {
             {/* Desktop: vertical nav pinned to bottom-right */}
             <nav
                 aria-label="Site navigation"
-                className="hidden md:fixed md:right-10 md:bottom-10 md:flex md:flex-col md:gap-0 p-2"
+                className="hidden lg:fixed lg:right-10 lg:bottom-10 lg:flex lg:flex-col lg:gap-0 p-2"
             >
                 {NAVIGATION_LINKS.map((link, index) => (
                     <motion.div
@@ -153,19 +154,19 @@ const LinkNav = () => {
                         }
                     >
                         <Link
-                            className="flex font-mono font-semibold text-sm items-center gap-2 text-neutral-200 hover:text-accent"
+                            className="group flex font-mono font-semibold text-sm items-center gap-2 text-neutral-200 hover:text-accent"
                             href={link.href}
                         >
                             <div className="flex items-center justify-center">
-                                {index + 1}.
-                            </div>
-                            <span>/{link.name}</span>
-                        </Link>
-                    </motion.div>
-                ))}
-            </nav>
-        </>
-    );
-};
+                            <ArrowUpRightFromCircle className="w-4 h-4 fill-none group-hover:translate-x-1 transition-transform duration-200" />
+                                </div>
+                                <span>{link.name}</span>
+                            </Link>
+                        </motion.div>
+                    ))}
+                </nav>
+            </>
+        );
+    }
 
-export default LinkNav;
+    export default LinkNav;

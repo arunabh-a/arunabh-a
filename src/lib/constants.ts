@@ -27,9 +27,9 @@ export const PROFILE = {
 } as const;
 
 export const NAVIGATION_LINKS = [
-    { name: "home", href: "/", icon: "/Arunabh-Logo.png" },
-    { name: "journey", href: "/journey", icon: "/journey.svg" },
-    { name: "links", href: "/links", icon: "/links.svg" },
+    { name: "Home", href: "/", icon: "/Arunabh-Logo.png" },
+    { name: "My Journey", href: "/journey", icon: "/journey.svg" },
+    { name: "Links & Profiles", href: "/links", icon: "/links.svg" },
 ];
 
 export const SKILLS = [

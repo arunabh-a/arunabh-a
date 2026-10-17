@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const Page = () => {
     const content = SOCIAL_LINKS;
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-start justify-center min-h-screen">
             <div className="flex max-w-3xl flex-col gap-8">
                 <div className=" flex-col gap-4">
                     <h1 className="text-3xl font-mono font-semibold">Links &bull; Arunabh Bhattacharya</h1>
